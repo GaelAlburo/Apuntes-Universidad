@@ -1,0 +1,21 @@
+Links: [[Semestre 7]]
+___
+# Temario
+- [[1. Introducción a la Inteligencia Artificial]]
+- [[3. Búsquedas Inteligentes y Resolución de Problemas]]
+	- [[Búsquedas Ciegas]]
+	- [[Búsquedas Heurísticas]]
+- [[4. Conocimiento]]
+	- [[Formas Lógicas]]
+	- [[Redes Semánticas]]
+	- [[Reglas de Producción]]
+	- [[Marcos (Frames)]]
+	- [[Guiones]]
+- 5. Razonamiento con Incertidumbre
+	- [[Lógica Difusa]]
+	- [[Factores de Certeza]]
+	- [[Reglas Difusas]]
+- [[Agentes]]
+- [[Razonamiento Bayesiano]]
+- [[Aprendizaje de Maquina]]
+- [[Redes Neuronales Artificiales]]
