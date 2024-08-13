@@ -16,7 +16,7 @@ It allows a rollback of the previous changes in the history of the source contro
 # Benefits
 
 - Keeps a full history of the changes of a project
-- Allows branching and merging. A branch is a copy of the project, which allows isolated changes. Once the changes are approved it can be merged on the main branch, 
+- Allows branching and merging. A branch is a copy of the project, which allows isolated changes. Once the changes are approved it can be merged on the main branch
 - Traceability of the changes. When, where and who made the change
 
 ___
