@@ -6,6 +6,7 @@ ___
 Tema: "Gobierno: Como puede beneficiar a la población explotando la Ciencia de Datos y demás disciplinas alrededor"
 
 ___
+
 # Generales
 
 - En la era digital los datos se han vuelto el recurso mas valioso.
@@ -22,5 +23,48 @@ ___
 	- Evaluaciones de politicas
 		- Permiten evaluar el impacto de ciertas politicas y programas, asi como el exito de estos o sus areas de oportunidad
 
-# Areas Aplicacion
+# Areas Aplicación
 
+- Salud:
+	- Puede ayudar en llevar un registro de brotes de enfermedades
+- Educación
+	- Poder determinar la eficiencia de los programas educativos, predecir la tasa de abandono, etc.
+- Desarrollo Económico
+	- Tendencias de mercado, tasas de empleo, desempleo y crecimiento económico
+	- Conocer más acerca de impuestos, políticas de comercio e inversión
+- Transporte
+- Justicia
+- Política Ambiental
+- Servicios Sociales
+
+# Beneficios de Ciencia de Datos en Gobierno
+
+- Eficiencia
+- Transparencia
+- Innovación
+- Trabajo Enfocado
+	- Permite enfocar el trabajo en las áreas donde se requiere.
+	- Los recursos se emplean donde se necesita
+- Crecimiento Económico
+- Toma de Decisiones basada en Evidencia
+
+# Desafíos y Preocupaciones
+
+- Privacidad y Ética
+- Calidad de los Datos
+- Seguridad
+- División Social Digital
+	- No todos los ciudadanos tienen acceso igual a servicios digitales lo que genera una división 
+	- No todos podrán acceder a los beneficios 
+- Barreras de Implementación
+	- Entrenar personal, costos iniciales
+- Control excesivo de ciudadanos
+- Aplicación de leyes de manera arbitraria
+- Venezuela: uso de datos para oprimir a población
+- https://www.bbc.com/news/articles/c3ej8zp4971o
+- 
+
+# Requerimientos
+
+- Digitalizar todos los procesos gubernamentales
+- Establecer laboratorios de datos para procesar la gran cantidad de información
