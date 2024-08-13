@@ -135,3 +135,70 @@ $LDB _ {t4}$ : MBR <- M
 $LDB _ {t5}$ : MAR <- MBR
 $LDB _ {t6}$ : MBR <- M
 $LDB _ {t7}$ : B <- MBR,   T<- 0,  PC <- PC + 1
+
+___
+
+| Cod. Operacion | Mnemonico | Descripcion                                |                         |
+| -------------- | --------- | ------------------------------------------ | ----------------------- |
+| 06H            | JMP       | Salto forzado a la direccion proporcionada | PC $\leftarrow$ M (JMP) |
+
+Memoria Externa:
+
+| Dir2  | 8004 |
+| ----- | ---- |
+| Dir3  | 8005 |
+| JMP   | 8006 |
+| 80F0H | 8007 |
+| ...   |      |
+| ...   |      |
+| Instr | 80F0 |
+
+- **Ciclo Fetch**
+`mismas instrucciones`
+- **Ciclo de Ejecución**
+$JMP_{t3}$ : MAR $\leftarrow$ PC
+$JMP_{t4}$ : MBR $\leftarrow$ M
+$JMP_{t5}$ : PC $\leftarrow$ MBR, T $\leftarrow$ 0
+
+___
+
+| Cod. Operacion | Mnemonico | Descripción                                                |
+| -------------- | --------- | ---------------------------------------------------------- |
+| 07H            | PSHB      | Coloca el valor B en el tope de la pila (apuntado por AP2) |
+
+Memoria Externa:
+
+| Dir2  | 8004 |
+| ----- | ---- |
+| Dir3  | 8005 |
+| JMP   | 8006 |
+| 80F0H | 8007 |
+| ...   |      |
+| ...   |      |
+| PSHB  | 80F0 |
+| AP1   | 80F1 |
+
+Pila: (Se usan dos apuntadores porque AP2 ira cambiando, AP1 sirve solo de referencia sin importar los cambios de AP2)
+
+| AP2    | AP1 |
+| ------ | --- |
+| ...    |     |
+| ...    |     |
+|        | AP2 |
+| Dato2  |     |
+| Dato1  |     |
+| Inicio |     |
+
+- **Ciclo Fetch**
+`mismas instrucciones`
+- **Ciclo de Ejecución**
+$PSHB_{t3}$ : MAR $\leftarrow$ PC
+$PSHB_{t4}$ : MBR $\leftarrow$ M (MBR = AP1)
+$PSHB_{t5}$ : MAR $\leftarrow$ MBR `Tenemos acceso a AP2`
+$PSHB_{t6}$ : MBR $\leftarrow$ M (MBR = AP2) 
+$PSHB_{t7}$ : MBR $\leftarrow$ MBR - 1  (MBR = AP2 - 1)
+$PSHB_{t8}$ : M $\leftarrow$ MBR  `Actualizamos el tope de la pila`
+$PSHB_{t9}$ : MBR $\leftarrow$ MBR + 1  `Se regresa al valor actual de la pila`
+$PSHB_{t10}$ : MAR $\leftarrow$ MBR (MAR = AP2)
+$PSHB_{t11}$ : MBR $\leftarrow$ B,  PC $\leftarrow$ PC + 1
+$PSHB_{t12}$ : M $\leftarrow$ MBR,  T $\leftarrow$ 0
