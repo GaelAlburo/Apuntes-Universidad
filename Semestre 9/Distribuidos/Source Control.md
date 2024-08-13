@@ -47,3 +47,39 @@ ___
 
 Use GitBook to make documentation.
 - Connect it with uni domain to get it
+
+# Basic Commands
+
+BASIC COMMANDS:
+- git clone: clones an existing remote repo
+	git clone [URL]
+- git branch: displays the current branches. 
+	The one we are on is marked by a *
+- git branch [name]: creates a new branch
+- git checkout [name]: changes from branch
+- git checkout -b [name]: creates and switches to [name]
+- git branch -d [name]: deletes a branch. It has to be in a different branch
+	git branch -D [name]: Forces delete
+	
+REMOTE REPO:
+1. Create remote repo in GitLab
+2. Create local repo
+3. Create a local commit to create a main branch
+4. Sync (git push -u origin main) (We use -u origin because in the remote doesn't exist the main branch that does in local)
+- git push: Only pushes the changes of the branch we're on
+- git log --graph: Shows a graph of the branches
+GIT FETCH
+Only downloads the changes from remote repo, it doesn't apply them. We have to do a manual merge to make the changes
+GIT PULL
+It does a merge  in the local repo of the changes from the remote repo
+- git merge [origin/branch-name]: It does a merge from the specified remote to the specified branch
+	Sometimes it occurs conflicts, it has to be resolved manually 
+	
+MERGE
+Creates a temporal branch for the differences encountered until the conflicts are resolved
+REBASE
+- git rebase [origin/branch-name]
+On the conflicts in the file, now HEAD is the remote, and the hash is the local differences
+In the rebase we have to force the push to make the changes remote
+The rebase maintains the history as lineal as possible. Some commits will be lost
+It can cause to lose the resolved conflicts changes
