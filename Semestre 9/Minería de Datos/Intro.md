@@ -86,3 +86,83 @@ La gente al cambiar un poco sus datos, pueden generar variaciones. Con el propos
 # Conocer la Informacion
 
 Desde generar histogramas, graficas, son de gran ayuda para conocer la informacion general
+
+## Limpieza automatica
+
+Las mismas tecnicas de Mineria de Datos nos permiten realizar la limpieza de los datos, esto mediante una revision meticulosa
+
+### Regresion
+
+Los investigadores usualmente eliminan manualmente los valores "ruido" aislados para realizar una regresion lineal
+
+# Transformacion de Datos
+
+Un proceso exitoso de mineria de datos implica un adecuado algoritmo de aprendizaje y aplicarlo sobre informacion
+
+Cada metodo require distintas transformaciones de los datos para funcionar eficientemente
+
+## Intercambio de Dimensiones
+
+- Creacion de atributos
+- Derivados de otros atributos
+- Util para predecir comportamientos y encontrar patrones de informacion 
+
+## Discretizacion
+
+- Esencial si la tarea involucra atributos numericos que solo se manejan como categoricos
+- Se da una categoria a un grupo de numeros
+	- Discretizar rangos de edad:
+		- Menor: 0-17
+		- Adulto joven: 18-32
+		- Adulto: 33-50
+Dsitribuciones normales
+
+**Discretizacion Supervisada**
+- Establece las clases en que se generara la discretizacion
+
+**Discretizacion No supervisada**
+- Establece que las clases las haga la herramienta
+- Si se esta deacuerdo se deja, de lo contrario se interfiere
+
+## Numerizacion
+
+- Conversion de una instancia discreta a numerica
+	- Se dan valores numericos a valores categoricos
+	- Manzana - 5
+	- Platano - 6
+	- Naranja - 3
+- Principalmente para algoritmos de aprendizaje que usan regresion (que naturalmente necesitan valores numericos)
+
+## Normalizacion
+
+- Se puede realizar mediante la media estadistica y la desviacion estandar de los valores
+- A cada atributo de la instancia se le sustrae el valor de la media y se divide por la desviacion estandar
+
+- Esto se le llama Estandarizacion de una variable
+
+- Se paga mensualmente 5,000 de un pago minimo mensual de 8,000 de una deuda de 30,000
+	- 5,000/8,000 : Se obtiene un indice (una razon), el cual podemos traducir como nivel de compromiso de pago
+	- 9,000/8,000 : El compromiso es mayor
+
+## Series de Tiempo
+
+- Cuando se analiza informacion a traves del tiempo
+- Util para determinar valores incrementales o deltas en los atributos posteriores al valor inicial
+- Para ciertos procesos la delta o valor incremental es mas util que un valor mismo en una instancia
+
+<mark class="hltr-pink">Siguientes Miercoles 21 no hay clases</mark>
+
+___
+# Tareas de Mineria de Datos
+
+- Base de Informacion
+	- Seleccion: Datos relevantes
+		- Preproceso: Datos preprocesados
+			- Transformacion: Datos Transformados (se genera una vista minable)
+				- Mineria de Datos: Patrones 
+					- Interpretacion/Evaluacion: Nuevo conocimiento
+
+Generalmente los primeros pasos son los mas tardados debido a la limpieza, transformacion, y la gran cantidad de informacion
+
+- Evaluacion: De los resultados del modelo, comparalo con las predicciones hechas y lo sucedido en la realidad
+	- 
