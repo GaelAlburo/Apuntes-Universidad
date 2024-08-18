@@ -65,9 +65,12 @@ REMOTE REPO:
 1. Create remote repo in GitLab
 2. Create local repo
 3. Create a local commit to create a main branch
-4. Sync (git push -u origin main) (We use -u origin because in the remote doesn't exist the main branch that does in local)
+4. Creates a remote on local repo (git remote add origin <url>)
+5. Sync (git push -u origin main) (We use -u origin because in the remote doesn't exist the main branch that does in local)
 - git push: Only pushes the changes of the branch we're on
 - git log --graph: Shows a graph of the branches
+
+
 GIT FETCH
 Only downloads the changes from remote repo, it doesn't apply them. We have to do a manual merge to make the changes
 GIT PULL
@@ -77,9 +80,11 @@ It does a merge  in the local repo of the changes from the remote repo
 	
 MERGE
 Creates a temporal branch for the differences encountered until the conflicts are resolved
+
 REBASE
 - git rebase [origin/branch-name]
 On the conflicts in the file, now HEAD is the remote, and the hash is the local differences
 In the rebase we have to force the push to make the changes remote
 The rebase maintains the history as lineal as possible. Some commits will be lost
 It can cause to lose the resolved conflicts changes
+
