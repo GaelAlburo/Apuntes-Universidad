@@ -202,3 +202,4 @@ $PSHB_{t9}$ : MBR $\leftarrow$ MBR + 1  `Se regresa al valor actual de la pila`
 $PSHB_{t10}$ : MAR $\leftarrow$ MBR (MAR = AP2)
 $PSHB_{t11}$ : MBR $\leftarrow$ B,  PC $\leftarrow$ PC + 1
 $PSHB_{t12}$ : M $\leftarrow$ MBR,  T $\leftarrow$ 0
+
