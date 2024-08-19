@@ -25,11 +25,15 @@ Salidas (Control):
 
 Estados
 
-
+![[maquina de estados.jpeg|center]]
 
 ___
+## Tabla de Verdad
+
+![[tabla-de-verdad.jpeg|center]]
 ## Mapa de Karnaugh
 
 La cantidad de mapas se define por la cantidad de columnas del lado derecho
 - Edos Sig y Salidas
 
+![[mapas-karnaugh 1.jpeg|center]]
