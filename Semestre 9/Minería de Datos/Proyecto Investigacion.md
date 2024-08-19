@@ -68,3 +68,12 @@ ___
 
 - Digitalizar todos los procesos gubernamentales
 - Establecer laboratorios de datos para procesar la gran cantidad de información
+
+___
+
+# Estrategias para implementar Ciencia de Datos en un Gobierno
+
+La colaboracion entre el sector público y privado es fundamental para tener acceso a tecnologías y expertos en las áreas de ciencia de datos. Adicionalmente estas colaboraciones permiten compartir tanto datos y experiencia.
+
+La inversión y educación es importante para tener un buen fundamento de la ciencia de datos.
+Los gobiernos deben apoyar en programas de ciencias de datos, al igual que colaborar con instituciones académicas, para generar expertos de nuevas generaciones en estas áreas
