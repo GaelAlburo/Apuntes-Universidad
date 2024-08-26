@@ -78,10 +78,12 @@ La colaboracion entre el sector público y privado es fundamental para tener acc
 La inversión y educación es importante para tener un buen fundamento de la ciencia de datos.
 Los gobiernos deben apoyar en programas de ciencias de datos, al igual que colaborar con instituciones académicas, para generar expertos de nuevas generaciones en estas áreas
 
+Estos dos factores anteriores requieren de una cultura de innovación dentro de los gobiernos. Fomentar la experimentación y crear proyectos pilotos pueden ayudar a reconocer los resultados de emplear una estrategia basada en datos.
+
 ___
 # Transporte
 
-Existe la publicacion de Springer llamada "Data Science and Transportation", la cual publica investigaciones de alta calidad que utilizan la ciencia de datos como herramienta para mejorar los sistemas de transporte, o incluso las politicas que regulan los transportes.
+Existe la publicación de Springer llamada "Data Science and Transportation", la cual publica investigaciones de alta calidad que utilizan la ciencia de datos como herramienta para mejorar los sistemas de transporte, o incluso las politicas que regulan los transportes.
 
 - **Ejemplo de uso de ciencias de datos**
 Con el auge de la conectividad y la integracion de tecnologias en aspectos de la vida diaria de las personas, se ha abierto la posibilidad de innovaciones, como lo es la tecnologia Vehicle-To-Everything (V2X).
@@ -113,3 +115,21 @@ Otra aplicacion es dentro de las secretarias de transportes. Donde estos pueden 
 ___
 [Why Data Matters in Criminal Justice | Walden University](https://www.waldenu.edu/programs/criminal-justice/resource/why-data-matters-in-criminal-justice#:~:text=In%20the%20case%20of%20the%20criminal%20justice%20system%2C,the%20quality%20and%20efficiency%20of%20the%20justice%20system.)
 
+- **Ejemplo de uso de ciencia de datos en la justicia criminal**
+
+Los analistas de datos en el sistema de justicia penal pueden correlacionar datos relacionados con el crimen (como tasas de criminalidad, reincidencia, condenas por drogas) con factores externos (como pobreza, educación, historial laboral) para identificar patrones que mejoren la calidad y eficiencia del sistema.
+
+Los datos de justicia penal pueden mejorar varias áreas:
+
+- **Planificación de respuesta:** El análisis de las respuestas de las fuerzas del orden ayuda a identificar los métodos más efectivos para diversos delitos, lo que permite tomar decisiones más informadas.
+- **Prevención del crimen:** Al correlacionar datos de delitos con factores como el absentismo escolar y las tasas de desempleo, y utilizando geolocalización, las fuerzas del orden pueden predecir cuándo y dónde es probable que ocurran delitos. Este enfoque llevó a reducciones significativas en la criminalidad en un programa piloto en Manchester, New Hampshire.
+- **Identificación de criminales:** El análisis de datos ayuda a conectar escenas del crimen en bases de datos, facilitando la creación de perfiles de criminales y reduciendo las listas de sospechosos.
+- **Evaluación de riesgos:** Los sistemas basados en datos ayudan a evaluar el riesgo de delincuentes liberados o en libertad condicional, mejorando la toma de decisiones para jueces y juntas de libertad condicional.
+
+El Departamento de Justicia de Estados Unidos, en su Oficina de Estadísticas de Justicia se encargan de recopilar, analizar y publicar datos relacionados con el crimen y el funcionamiento del sistema de justicia penal.
+
+- Recopilan datos sobre tasas de criminalidad, tipos de delitos y tendencias a lo largo del tiempo.
+- Monitorean el desempeño de las fuerzas del orden, los tribunales, el sistema correccional y la eficiencia general del sistema de justicia.
+- Estadísticas de reincidencia y encarcelamiento (Patrones de reincidencia y proporcionar datos sobre poblaciones carcelarias, libertad condicional y libertad vigilada)
+- Realizan encuestas sobre temas como la victimización por delitos, la pena capital y el uso de drogas entre los delincuentes.
+- Proporcionan datos a los responsables políticos para informar decisiones sobre reformas de justicia penal y asignación de recursos.
