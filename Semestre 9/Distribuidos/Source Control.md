@@ -88,3 +88,5 @@ In the rebase we have to force the push to make the changes remote
 The rebase maintains the history as lineal as possible. Some commits will be lost
 It can cause to lose the resolved conflicts changes
 
+_____________
+
