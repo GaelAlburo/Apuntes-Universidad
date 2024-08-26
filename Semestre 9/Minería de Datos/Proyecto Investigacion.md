@@ -113,6 +113,8 @@ Otra aplicacion es dentro de las secretarias de transportes. Donde estos pueden 
 
 
 ___
+# Justicia Criminal
+
 [Why Data Matters in Criminal Justice | Walden University](https://www.waldenu.edu/programs/criminal-justice/resource/why-data-matters-in-criminal-justice#:~:text=In%20the%20case%20of%20the%20criminal%20justice%20system%2C,the%20quality%20and%20efficiency%20of%20the%20justice%20system.)
 
 - **Ejemplo de uso de ciencia de datos en la justicia criminal**
@@ -133,3 +135,6 @@ El Departamento de Justicia de Estados Unidos, en su Oficina de Estadísticas de
 - Estadísticas de reincidencia y encarcelamiento (Patrones de reincidencia y proporcionar datos sobre poblaciones carcelarias, libertad condicional y libertad vigilada)
 - Realizan encuestas sobre temas como la victimización por delitos, la pena capital y el uso de drogas entre los delincuentes.
 - Proporcionan datos a los responsables políticos para informar decisiones sobre reformas de justicia penal y asignación de recursos.
+
+Dentro de su página web, proporcionan los datos y herramientas especializadas para generar gráficos de acuerdo a todos sus datos recabados.
+
