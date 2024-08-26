@@ -1,4 +1,4 @@
-Se refiere a la asignacion de direcciones fisicas a direcciones logicas
+mSe refiere a la asignacion de direcciones fisicas a direcciones logicas
 
 Como nos centramos en la Raspberry PI, podemos mejorar significativamente el rendimiento del sistema y asegurarnos de que funcione eficiente y efectivamente
 
