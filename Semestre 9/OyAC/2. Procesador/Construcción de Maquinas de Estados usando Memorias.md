@@ -45,7 +45,7 @@ m = 5 +8 = 13
 Tamaño de la memoria:   $2^{11} * 13 = 26,624 [bits]$
 ___
 
-# Ejemplo Carta ASM
+## Ejemplo Carta ASM
 
 ![[WhatsApp Image 2024-08-22 at 8.08.52 AM.jpeg|center|400]]
 
@@ -63,3 +63,80 @@ $\text{Tamaño} = 2^8 * 7 = 1,792[bits]$
 
 3. Obtener el contenido de la memoria (Microprogramacion)
 
+4. Grabar la memoria
+
+## Caracteristicas
+
+- Soporta todas las cartas ASM
+- Soporta todas las salidas condicionales
+- Soporta mas de una condicion por estado
+- Desperdicia mucha memoria
+- Hardware:
+	- Memoria RAM
+	- Registros
+
+___
+# Direccionamiento Entrada-Estado
+
+![[Pasted image 20240827072901.png|center]]
+
+>[!info] Solo soporta cartas ASM con una sola entrada por estado.
+
+La memoria se divide en distintos bloques:
+- PRUEBA: Contiene una representación binaria de la entrada a probar en cada estado
+- LIGAS: Se escoge uno de los 2 estados siguientes (Falsa/Verdadera) de acuerdo a la entrada seleccionada por PRUEBA
+
+Si el valor de la entrada por el SELECTOR DE ENTRADAS es 0 se elige la LIGA FALSA en el SELECTOR DE LIGA
+Si el valor es 1 se elige la LIGA VERDADERA en el SELECTOR DE LIGA
+
+![[Pasted image 20240827073400.png|center]]
+
+**Calculo de Memoria:**
+- n = Bits de los estados
+- m = Bits de prueba + Bits Liga Falsa + Bits Liga Verdadera + Bits de salida
+## Ejemplos
+
+- Estados = 9
+- Entradas = 3
+- Salidas = 4
+n = 4
+m = 2 (bits de entrada) + 4 (bits de estados) + 4 (bits de estados) + 4 = 14\
+
+Memoria = $2^4 * 14 = 224 [bits]$
+
+>[!done] Se ahorra mucha memoria con este direccionamiento a comparación del de por trayectoria
+
+- Estados = 32
+- Entradas = 6
+- Salidas = 8
+n = 5
+m = 3 + 5 + 5 + 8 = 21
+
+Memoria = $2^5 * 21 = 672 [bits]$
+
+## Ejemplo Carta ASM
+
+1. Asignacion Binaria los estados y entradas
+PRUEBA
+C - 00
+B - 01
+A - 10
+
+2. Calcular el tamano de la memoria
+n = 3
+m = 2 + 3 + 3 + 4 = 12
+
+Memoria = $2^3 * 12$
+
+3. Obtener el contenido de memoria (microprogramacion)
+
+## Caracteristicas
+
+- No soporta todas las cartas ASM
+	- No se puede tener mas de una condicion por estado
+	- No soporta salidas condicionales
+- Ahorra mucha memoria
+- Hardware:
+	- Memoria ROM
+	- 2 MUX (multiplexor)
+	- Registro
