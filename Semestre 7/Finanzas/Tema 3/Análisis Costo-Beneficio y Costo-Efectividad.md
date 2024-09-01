@@ -1,4 +1,4 @@
-Links: [[Finanzas]]
+Links: [[Universidad/Semestre 7/Finanzas/Finanzas]]
 ___
 
 [(3141) Análisis Costo-Beneficio (B/C) - YouTube](https://www.youtube.com/watch?v=Jd4JMM1WySo&ab_channel=JoseAndresLenguaDiaz)

@@ -1,4 +1,4 @@
-Links: [[Finanzas]]
+Links: [[Universidad/Semestre 7/Finanzas/Finanzas]]
 ___
 
 # Producto

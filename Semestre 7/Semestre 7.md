@@ -1,7 +1,7 @@
 # Clases:
 ### [[Compiladores]]
 ### [[Economía]]
-### [[Finanzas]]
+### [[Universidad/Semestre 7/Finanzas/Finanzas]]
 ### [[Inteligencia Artificial]]
 ### [[Sistemas de Comunicaciones]]
 ### [[VLSI]]

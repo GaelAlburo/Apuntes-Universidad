@@ -1,4 +1,4 @@
-Links: [[Finanzas]]
+Links: [[Universidad/Semestre 7/Finanzas/Finanzas]]
 ___
 
 Analisis que busca identificar el num. de personas o empresasa que integran la demanda de producto o servicio.

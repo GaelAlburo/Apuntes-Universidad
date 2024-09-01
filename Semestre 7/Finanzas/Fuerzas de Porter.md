@@ -1,4 +1,4 @@
-Links: [[Finanzas]]
+Links: [[Universidad/Semestre 7/Finanzas/Finanzas]]
 ___
 1. Amenazas de nuevos competidores
 - Obstaculos para entrar a un mercado

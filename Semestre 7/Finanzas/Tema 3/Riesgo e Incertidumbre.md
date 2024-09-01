@@ -1,4 +1,4 @@
-Links: [[Finanzas]]
+Links: [[Universidad/Semestre 7/Finanzas/Finanzas]]
 ___
 
 Incertidumbre: Desconocimiento de la ocurrencia de un acontecimiento futuro.
