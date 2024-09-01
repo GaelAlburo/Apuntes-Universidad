@@ -95,7 +95,7 @@ Si el valor es 1 se elige la LIGA VERDADERA en el SELECTOR DE LIGA
 - n = Bits de los estados
 - m = Bits de prueba + Bits Liga Falsa + Bits Liga Verdadera + Bits de salida
 ## Ejemplos
-
+we
 - Estados = 9
 - Entradas = 3
 - Salidas = 4
@@ -140,3 +140,10 @@ Memoria = $2^3 * 12$
 	- Memoria ROM
 	- 2 MUX (multiplexor)
 	- Registro
+
+# Direccionamiento Entrada-Estado 2.0
+
+![[Pasted image 20240829071239.png|center|400]]
+
+Esta arquitectura nos permite tener salidas condicionales
+
