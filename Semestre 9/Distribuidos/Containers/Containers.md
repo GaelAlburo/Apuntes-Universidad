@@ -1,0 +1,214 @@
+# Intro CONTAINERS
+
+Hypervisor: WE can emulate all hardware inside it. They're very small (Proxmox, Ovirt)
+	They mount on HW
+	THey emulate RAM, HDD (SAN, NAS), CPU
+	
+COntainer: A process that executes inside our OS. That process has all libraries that it needs for a single application. DOesnt emulate hardware. It will use the HW of the host
+	
+	ADVANTAGES:
+	lightness (0-1 CPU [usually 0.2], <200MB memory)
+	portability
+	isolation
+	scalability
+	version control
+	dependency management 
+Container: Docker, Podman
+DOCKER ARCHITECURE
+- Client
+	docker build
+	docker pull
+	docker run
+- Docker_Host
+	Docker daemon
+	Containers
+	Images (ubuntu, ...)
+- Registry (where we get the images): Docker Hub
+	publics
+	private
+	
+---
+
+UNIX Process:
+Father process: Init, SystemD. ProcessID = 0
+
+---
+
+Images: An immutable file (at least not when it's executing)
+- An image consists of different image layers that are READ exclusive.
+- The images are defined inside a Dockerfile.
+- these files are made of instructions 
+	FROM ubuntu:18.04 -> Determines the base image that our image will be based
+	COPY ./app -> Copies a local file into the container
+	RUN make /app -> We can execute S.O. commands inside the dockerfile
+			RUN tells that we're about to execute an S.O. command
+	CMD (ENTRYPOINT) python /app/app.py ->Tells that while app.py is running the container will live
+				When the file terminates it deletes the container
+CMD: Can be rewritten
+
+
+ENTRYPOINT: All images that execute in our container wont change
+Docker will automatically assign a hash to every layer. Each instruction on Dockerfile will be a layer. All of this will be READ only. When we execute the container there will be an extra layer that can be READ/WRITE
+
+---
+On docker hub we can see all images.
+We search for ubuntu. THere is the command docker pull ubuntu
+This command will download the latest tag of the image. We can specify a tag
+IN the command line we can see the hash of the layer its downloading
+To see our images: docker images
+TO delete an image: docker rmi <name | image-id:tag(latest)>
+	docker rmi ubuntu:latest
+	
+When executing docker images the images doesnt appear
+
+
+MAKE OWN DOCKERFILE
+We create folders: mkdir -p containers/examples/images
+make program app.py inside this route:
+	from time import sleep
+	while True:
+		print('Hello World')
+		sleep(5)
+		
+we create a new file called Dockerfile (it has to be this name)
+We put code in it:
+	FROM ubuntu:latest (we ussually determine a tag, because latest will change)
+	WORKDIR /app (we define a directory where all the files we want to execute are)
+	RUN groupadd -r appuser && useradd -r -g appuser --no-log-init appuser
+	(were going to execute a linux command here. we will add a user)
+	(groupadd: first we need to create a group called appuser)
+	(&&: if the previous command was executed correctly we execute the next)
+	(useradd: add a new user forcing it (-r) and add it to group (-g) called appuser)
+	(--no-log-init appuser: we tell that this user is only system, we dont need to create a password, profile or home directory)
+	
+	RUN apt-get update && apt-get-install -y python (We install python in the image, but first we update the cache)
+	
+	COPY . /app (copy all the files of the app)
+	
+	CMD ["pyhton3", "-u", "app.py"](command that will execute the program)
+	("-u": tells only the current user can execute the app)
+	
+	USER appuser (the user its always at the end of the Dockerfile, since this marks an end)
+	
+- Now we need to build the image so we can see it when docker images
+- we user docker build -t myapp:latest . (its better to use semantic release, but for now latest is ok)
+	(-t: we assign a number and a name)
+	(the dot tells where the image is at)
+	
+- After the build is done we can see it on docker images
+	- If there is a mistake we can fix the Dockerfile and rerun the build command
+	
+- Python is installed only inside the container
+- We use ubuntu commands in the Dockerfile because we tell it in the first line that its base image has to be ubuntu
+- This image created is only the READ layer
+- A CONTAINER is an instance of execution of an image
+	- Like POO. A container is an instance of an image
+	- It will have all the dependencies isolated from the host.
+	- But it will use all of the host hardware
+	
+- Now we can actually create the container
+- We will create the last layer that will be READ/WRITE
+- We use:
+	docker run --name my-app -d my-app:latest
+	(--name: we can give it our own name)
+	(-d: option that habilitates the use of other things when it is executing)
+	
+- With docker ps we see all containers
+	- With docker ps -a we see all up and dead containers
+	
+- To see the logs of a container:
+	docker logs myapp
+	docker logs -f myapp (-f: see the changes in real time)
+		We exit the logs with CTRL+C
+-==========
+- We can also access the container and execute some commands
+	docker exec -ti my-app bash
+	(-ti: interactive)
+- Now the CLI will change the route, since were now on the containers terminal
+	- we can use commands: ls, cat, ps (see all process), ps -fea (see all processes everywhere)
+	
+- To exit the container:
+	exit
+	CTRL+D
+	
+- TO stop a container:
+	docker stop my-app
+- To start a container:
+	docker start my-app
+- To delete a container:
+	docker rm ubuntu
+	
+============
+docker push -> TO upload my local image to the hub
+docker run --name ubuntu -d ubuntu:latest
+THis command will try to find an image in our local repo of ubuntu
+SInce there is no image, docker automatically downloads the ubuntu image
+But the image wont run, because it has a bash command to start the container. Bash needs to access the terminal to function. SInce we dont add the -ti flag, we cant actually access the terminal. the interactive flag will allow us to access the terminal, and so allowing bash to function
+If we run docker run -ti --name ubuntu -d ubuntu:latest
+THen the container will appear running if we do docker ps
+If we try to remove the container (docker rm ubuntu) we cant. we need to stop the container and then delete it.
+But we can force the delete: docker rm -f ubuntu
+============
+PORTS:
+	http - 80
+	https - 443
+	postgres - 5432
+	mysql - 3386
+	ssh - 22
+	ftp - 21
+	dns - 53 udp/tcp
+proxy- filter
+inverse proxy
+balancer
+	nginx
+We create a new container based on nginx
+docker run -d --name nginx nginx:latest
+When it finishes downloading, we can see it as an active container
+It then marks as a PORT: 80/tcp
+We enter the container: docker exec -ti nginx bash
+(we put bash since we're entering the terminal)
+IF we do curl localhost: curl localhost, we see the templates of nginx
+BUt if we do it outside of the container: curl localhost, it doesnt show
+we delte the container: 
+Now we create another container of nginx but we mark its ports:
+docker run -d --name nginx -p 80:80 ngin latest
+<portHost>:<portContainer>
+NOw when we do the docker ps
+We can see a different PORT
+SInce its 0.0.0.0-> we can see that anyone can acces this port, because of the 0.0.0.0
+In :80 -> we see the port of host
+->80/tcp  it tells us that the host port is mapped to the 80 port of container, and it tells us it uses TCP
+Now when we just do curl localhost we can see that the port was connected correctly
+We can also see the localhost:80 in our browser
+----------
+We can add a new line from inside the container:
+	ENter the container: docker exec -ti nginx bash
+	Rewrite index.html: echo "hello world!" > usr/share/nginx/html/index.html
+	
+NOw when we do curl localhost: it will show us the message we just created
+============================
+DOCKER STORAGE
+In essence a container doesnt persist.
+Two types of volumes (storage in docker):
+- bindmount
+- tmpfsmount
+we use storage when we have to use config files, persist the logs of the container.
+ELK: an external unit that continouslly extracts all the logs from a container. Then we dont have to use a volume to store the logs
+-------
+We delte the nginx container
+we start it again with the ports
+curl localhost -> it doesnt show the changes done in previous session
+-------------
+TO create a volume: docker volume create <name>
+TO list all the volumes: docker volume ls
+TO make a container use a certain volume:
+	docker run -d --name nginx -p 80:80 -v volume_nginx:/usr/share/nginx/html nginx:latest
+	
+-v volume_nginx/usr/share/nginx/html : tell what volume we're going to use and in what directory were going to save the container
+- to delete a volume: docker volume rm nginx_volume
+=========
+we create a directory: mkdir /tmp/nginx_data
+we create an index: echo 'hello world'> /tmp/nginx_data/index.html
+we the create a new container but with the new file added
+docker run -d --name nginx -p 80:80 --mount type=bind,src="/tmp/nginx_data",target=/usr/share/nginx nginx:latest
+	wITH THIS command we tell it to map the src path (the one we just created locally) to the target path(inside the container). We tell it to be type bind too
