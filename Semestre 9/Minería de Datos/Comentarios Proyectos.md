@@ -1,9 +1,10 @@
 **Internet de las cosas ¿Cómo se enriquece de la Ciencia de Datos?**
 
-Ullah, I., Adhikari, D., Su, X., Palmieri, F., Wu, C., & Choi, C. (2024). Integration of data science with the intelligent IoT (IIoT): Current challenges and future perspectives. _Digital Communications and Networks_. https://doi.org/https://doi.org/10.1016/j.dcan.2024.02.007.
+Ullah, I., Adhikari, D., Su, X., Palmieri, F., Wu, C., & Choi, C. (2024). Integration of data science with the intelligent IoT (IIoT): Current challenges and future perspectives. _Digital Communications and Networks_. https://doi.org/10.1016/j.dcan.2024.02.007.
 
 El IoT genera grandes cantidades de datos, pero es la Ciencia de Datos la que transforma esa información en valor práctico. Mediante análisis y visualización, permite que las empresas tomen decisiones informadas y optimicen procesos. Un ejemplo es cómo dispositivos como Amazon Alexa utilizan algoritmos de reconocimiento de voz, basados en Ciencia de Datos, para ofrecer sus funcionalidades. Además, la colaboración entre IoT, IA y Ciencia de Datos está revolucionando las redes, permitiendo infraestructuras más ágiles y mejorando la experiencia del usuario mediante la predicción y resolución de problemas.
 
+|==
 
 El Internet de las Cosas (IoT) se encuentra en el núcleo de la transformación digital, ya que implica la interconexión de dispositivos y sistemas para recopilar y compartir datos a través de redes. Sin embargo, aunque el IoT genera grandes volúmenes de datos, la verdadera riqueza se extrae a través de la Ciencia de Datos, que convierte esos datos en valor práctico para organizaciones y usuarios.
 
