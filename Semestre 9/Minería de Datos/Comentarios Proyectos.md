@@ -17,3 +17,12 @@ La colaboración entre IoT, IA y Ciencia de Datos también está transformando r
 En resumen, el IoT, enriquecido por la Ciencia de Datos, va más allá de la mera recolección de datos. Se convierte en una fuente de valor al generar insights, optimizar sistemas y mejorar la interacción entre humanos y tecnología. Esta combinación está dando forma a una sociedad cada vez más impulsada por datos y orientada a soluciones inteligentes.
 
 ---
+
+**Tecnología en Información, ¿Qué esperar en 10 o 20 años?**
+
+Intel. (s/f). _Preparing for the Future of IT_. https://www.intel.com/content/www/us/en/business/resources/future-of-it.html
+
+A futuro, la evolución de la Tecnología de la Información tiene un campo de oportunidades muy grande. Como lo son la inteligencia artificial, infraestructuras hibridas en la nube, la computación cuántica o la ciberseguridad. Estas innovaciones pueden revolucionar las industrias al mejorar la eficiencia, conectividad y seguridad. 
+Pero esto si es que se maneja adecuadamente. Existen riesgos, como el aumento de amenazas en seguridad, la desigualdad en el acceso a tecnologías avanzadas y la posible pérdida de empleos debido a la automatización. El éxito depende de cómo se implementen estas tecnologías y de que se aborden adecuadamente los desafíos éticos y de seguridad.
+
+

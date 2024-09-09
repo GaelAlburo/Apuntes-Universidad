@@ -147,3 +147,67 @@ Memoria = $2^3 * 12$
 
 Esta arquitectura nos permite tener salidas condicionales
 
+____
+# Direccionamiento Implícito
+
+![[Pasted image 20240905071904.png|center]]
+![[Pasted image 20240905072028.png|center]]
+
+Utiliza solo un campo de liga
+Una variable de entrada y VF son las que deciden si se utiliza la direccion de liga 
+
+El campo VF (Verdadero-Falso) sirve para indicarle a la lógica cuánto debe valer la variable de entrada, para así cargar en el contador el valor de la liga y hacer el salto.
+![[Pasted image 20240905072228.png|center]]
+
+![[Pasted image 20240905072321.png|center|400]]
+
+## Tamaño memoria
+
+n = Bits de estado
+m = Bits de Prueba + VF + Bits de Liga + Salidas
+
+- Estados 8,   Entradas =6,    Salidas = 7
+<mark class="hltr-pink">Se debe suma 1 a Entradas por Qaux</mark>
+
+n = 3
+m = 3 + 1 + 3 + 7 = 14
+
+- Estados = 9,   Entradas = 8,   Salidas = 5
+n = 4
+m = 4 + 1 + 4 + 5 = 14
+
+## Ejemplo Carta ASM
+
+1. Asignacion binaria a estados
+Todos los estados deben cumplir la regla n, n+1, p
+
+- Asignacion binaria a las entradas
+PRUEBA
+x: 000
+y: 001
+z: 010
+T: 011
+Qaux: 100
+
+2. Tamano de la memoria
+Estados = 8,   Entradas = 4 + 1,   Salidas: 4
+
+n = 3
+m = 3 + 1 + 3 + 4 = 11
+Memoria = $2^3 * 11$ bits
+
+3. Obtener contenido de la memoria (microprogramacion)
+Encerrar los valores de entradas que generan un salto para facilitar la microprogramacion
+
+## Caracteristicas:
+
+- No soporta todas las cartas ASM
+	- No soporta salidas condicionales
+	- No soporta mas de una condicion por estado
+- Ahorra mucha memoria
+- Todos los estados deben cumplir con la regla n, n+1, p
+- Elementos de HW:
+	- Memoria ROM
+	- Compuertas XOR y/o NOT
+	- Multiplexor
+	- Contador (Registros e Incrementador)

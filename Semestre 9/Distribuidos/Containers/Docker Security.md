@@ -1,0 +1,108 @@
+We want to reduce the possibilities of attack
+A container can be dangerous because it has access to the kernel
+One way to protect is to limit the amount of HW the container has access to
+	through limits or flags(memory, CPU)
+	
+- create docker-composer.yml
+	deploy: resources:limits: (in here we can define the ammount of memory and cpu)
+	
+- socket: physical processor
+- cpu: what the socket emulates inside (i7 - 9)
+- nucelo: virtual (i7-11)
+- microprocessor: new measure for containers. 0-1000 (1000 - 1 cpu)
+--docker-compose.yml--
+services:
+  web:
+    image: nginx:1.27.0-alpine3.19
+    restart: always
+    ports:
+      - 8080:80
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+          cpus: 0.5     
+------
+start the container: docker compose up -d
+with: docker stats to view all the resources the container uses
+	here we can confirm our limits were set correctly
+	
+============== DOCKERIGNORE
+we can use .dockerignore file to tell what files or directories not to upload to the container
+we create a mkdir app with app.py inside it
+now we create the Dockerfile
+	FROM python:3.9-slim
+	WORKDIR /usr/src/app
+	COPY . .
+	CMD ["python", "app.py"]
+	
+we create .dockerignore
+	in this file we put every file we dont want in the container
+we create .env file
+we create the docker-compose.yml:
+	services:
+	  app:
+	    build: ./app
+	    container_name: app
+	    deploy:
+	      resources:
+		limits:
+		  memory: 256M
+		  cpus: '0.5'
+		  
+now we execute the docker compose: docker compose up -d (it has to be at same level as the docker-compose.yml)
+we get inside the container: docker exec -ti app bash
+	in here we do: ls -la
+	we wont see all the files that were specified inside the .dockerignore
+	
+	(vault: place to store credentials and access them safely. Example: HCP Vault, AWS KMS, AZURE KEYVAULT)
+	
+====== VULNERABILITY SCAN
+nmap, nc (give this commands an URL of IP, and it tells us what ports are open)
+trivy - vulnerabilities at container level
+dockle - vulnerabilities at image level
+create mkdir sec_scan
+inside it create an index.html
+create a Dockerfile
+	FROM nginx:1.27.0
+	WORKDIR /usr/share/nginx/html
+	COPY . .
+	EXPOSE 80
+	CMD ["nginx", "-g", "daemon off;"]
+	
+we build the image created: docker build -t web-app:latest .
+we can see web-app inside docker images
+====TRIVY====
+we're gonna verify the vulnearibilites of the image: trivy image web-app:latest
+	we can view the local images or an image of docker hub
+	
+	it will download the db vulnerabilities known, from the aqua company.
+	I get an error because host doesnt have enough space 
+	at the end we'll see the vulnerabilty report
+	
+	to fix the vulnerabilities we use another base image:
+	nginx:1.27.0-alpine3.19-slim
+	
+the images based on alpine are much safer, this version doesnt show as many vulnerabilities when executing trivy
+
+==DOCKLE==
+dockle web-app:latest
+this one goes to the configuration of Dockerfile
+we can put the vulnerabilities in a .dockerignore so when we execute dockle it doesnt show
+	we fix the user vulnerability by adding a user in Dockerfile
+	we fix the latest tag by building with a v1.0.0 tag
+	we fix the docker trus by executing the command b4 the build
+	we fix HEALTHCHECK by installing curl and adding HEALTHCHECK instruction
+	we fix the last error by adding it to the .dockerignore because its a false positive
+	
+	FROM nginx:1.27.0-alpine3.19-slim
+	WORKDIR /usr/share/nginx/html
+	RUN addgroup -S appuser && adduser -S appuser -G appuser
+	RUN apk add --no-cache curl
+	COPY . .
+	USER appuser
+	EXPOSE 80
+	HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+		CMD curl -f http://localhost:80/ || exit 1
+	CMD ["nginx", "-g", "daemon off;"]
+after fixing all vulneabilities we can actually run the container:
