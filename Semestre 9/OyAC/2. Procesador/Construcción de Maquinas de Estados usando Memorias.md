@@ -211,3 +211,6 @@ Encerrar los valores de entradas que generan un salto para facilitar la micropro
 	- Compuertas XOR y/o NOT
 	- Multiplexor
 	- Contador (Registros e Incrementador)
+
+___
+# 

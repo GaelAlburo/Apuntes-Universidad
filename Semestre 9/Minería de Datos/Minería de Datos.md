@@ -19,4 +19,5 @@ Herramientas:
 - Weka
 
 
-PRIMEROS PRESENTACION (En ~2 semanas)
+[‪Data mining : practical machine learning tools and technique / Ian H. Witten, Eibe Frank, Mark A. Hall, Christopher J. Pal‬‎ - ‪Detalles de registro‬‎ - ‪Ebsco‬‎](https://research.ebsco.com/c/df24kt/search/details/cqrnotwpxv?limiters=FT:Y&q=data%20mining)
+

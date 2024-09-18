@@ -25,4 +25,11 @@ Intel. (s/f). _Preparing for the Future of IT_. https://www.intel.com/content/ww
 A futuro, la evolución de la Tecnología de la Información tiene un campo de oportunidades muy grande. Como lo son la inteligencia artificial, infraestructuras hibridas en la nube, la computación cuántica o la ciberseguridad. Estas innovaciones pueden revolucionar las industrias al mejorar la eficiencia, conectividad y seguridad. 
 Pero esto si es que se maneja adecuadamente. Existen riesgos, como el aumento de amenazas en seguridad, la desigualdad en el acceso a tecnologías avanzadas y la posible pérdida de empleos debido a la automatización. El éxito depende de cómo se implementen estas tecnologías y de que se aborden adecuadamente los desafíos éticos y de seguridad.
 
+___
+
+**Hardware o Software, ¿Cuál tiene más relevancia para la Ciencia de Datos?**
+
+___
+
+**Transformación Digital: ¿Cuándo termina en una organización?**
 
