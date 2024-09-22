@@ -47,7 +47,7 @@ ___
 
 ## Ejemplo Carta ASM
 
-![[WhatsApp Image 2024-08-22 at 8.08.52 AM.jpeg|center|400]]
+![[Pasted image 20240919123600.png|center]]
 
 1. **Asignacion Binaria a los Estados**
 Hay que nombrar a cada uno de los estados en binario
@@ -62,10 +62,11 @@ m = 3 + 4 = 7 (Del lado de Contenido)
 $\text{Tamaño} = 2^8 * 7 = 1,792[bits]$
 
 3. Obtener el contenido de la memoria (Microprogramacion)
+![[Pasted image 20240919124358.png|center]]
 
 4. Grabar la memoria
 
-## Caracteristicas
+## Características
 
 - Soporta todas las cartas ASM
 - Soporta todas las salidas condicionales
@@ -95,7 +96,7 @@ Si el valor es 1 se elige la LIGA VERDADERA en el SELECTOR DE LIGA
 - n = Bits de los estados
 - m = Bits de prueba + Bits Liga Falsa + Bits Liga Verdadera + Bits de salida
 ## Ejemplos
-we
+
 - Estados = 9
 - Entradas = 3
 - Salidas = 4
@@ -116,6 +117,8 @@ Memoria = $2^5 * 21 = 672 [bits]$
 
 ## Ejemplo Carta ASM
 
+![[Pasted image 20240919124821.png|center]]
+
 1. Asignacion Binaria los estados y entradas
 PRUEBA
 C - 00
@@ -129,8 +132,10 @@ m = 2 + 3 + 3 + 4 = 12
 Memoria = $2^3 * 12$
 
 3. Obtener el contenido de memoria (microprogramacion)
+![[Pasted image 20240919124843.png|center]]
 
-## Caracteristicas
+4. Grabar la memoria ROM
+## Características
 
 - No soporta todas las cartas ASM
 	- No se puede tener mas de una condicion por estado
@@ -141,11 +146,35 @@ Memoria = $2^3 * 12$
 	- 2 MUX (multiplexor)
 	- Registro
 
-# Direccionamiento Entrada-Estado 2.0
+___
+## Direccionamiento Entrada-Estado Modificado
 
 ![[Pasted image 20240829071239.png|center|400]]
 
 Esta arquitectura nos permite tener salidas condicionales
+
+### Ejercicio
+![[Pasted image 20240920090655.png|center|300]]
+
+1. Asignacion binaria a entradas:
+Prueba
+A - 00
+B - 01
+C - 10
+D - 11
+
+2. Tamano de la memoria
+Estados = 8
+Entradas = 4
+Salidas = 4
+
+n = 3
+m = 2 (prueba) + 3 (liga falsa) + 3 (liga verdadera) + 4 (salida falsa) + 4 (salida verdadera) = 16
+
+3. Contenido de la memoria
+![[Pasted image 20240920091049.png|center]]
+
+4. Grabar la memoria
 
 ____
 # Direccionamiento Implícito
@@ -160,7 +189,7 @@ El campo VF (Verdadero-Falso) sirve para indicarle a la lógica cuánto debe val
 ![[Pasted image 20240905072228.png|center]]
 
 ![[Pasted image 20240905072321.png|center|400]]
-
+![[Pasted image 20240920091236.png|center]]
 ## Tamaño memoria
 
 n = Bits de estado
@@ -177,6 +206,8 @@ n = 4
 m = 4 + 1 + 4 + 5 = 14
 
 ## Ejemplo Carta ASM
+
+![[Pasted image 20240920091314.png|center|300]]
 
 1. Asignacion binaria a estados
 Todos los estados deben cumplir la regla n, n+1, p
@@ -198,8 +229,9 @@ Memoria = $2^3 * 11$ bits
 
 3. Obtener contenido de la memoria (microprogramacion)
 Encerrar los valores de entradas que generan un salto para facilitar la microprogramacion
+![[Pasted image 20240920091342.png|center|300]]
 
-## Caracteristicas:
+## Características:
 
 - No soporta todas las cartas ASM
 	- No soporta salidas condicionales
@@ -211,6 +243,3 @@ Encerrar los valores de entradas que generan un salto para facilitar la micropro
 	- Compuertas XOR y/o NOT
 	- Multiplexor
 	- Contador (Registros e Incrementador)
-
-___
-# 
