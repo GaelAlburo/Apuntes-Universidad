@@ -3,7 +3,6 @@ Una computadora digital consta:
 - Unidad ejecutiva - Procesador
 - Control (Bus datos, direcciones, control)
 
-
 # Tipos
 
 Arquitectura Von Neuman
