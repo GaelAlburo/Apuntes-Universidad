@@ -33,3 +33,8 @@ ___
 
 **Transformación Digital: ¿Cuándo termina en una organización?**
 
+___
+
+**¿Hacia dónde se dirige la industria en términos de BigData?**
+
+La industria se está moviendo hacia la integración con inteligencia artificial y análisis en tiempo real. Las empresas están adoptando tecnologías como *Edge Computing* para procesar datos más cerca de la fuente y plataformas en la nube híbrida para manejar grandes volúmenes de información. La automatización y la accesibilidad de los datos dentro de las organizaciones están facilitando la toma de decisiones basadas en datos, democratizando su uso para empleados no técnicos y mejorando el rendimiento empresarial. Además, se tendrá un mayor rigor en la gobernanza de datos, la privacidad y el cumplimiento de las normas en cualquier sector donde se aplique BigData.
