@@ -40,3 +40,20 @@ En alkgoritmo de cobertura busca en las variables y genera las reglas
 # Modelado
 
 >[!info] Se puede comparar dos metodos clasificadores. Se puede comparar algoritmos de mismo objetivo, clasificadores
+
+
+___
+# Validación y Mejora del Modelo
+
+
+
+PERGUNTAS TEORICAS:
+- Despues del tema 3.5
+
+
+PARA IDENTIFICAR EL ALGORITMO A UTILIZAR
+Si hay clases de salida o no las hay.
+- Supervisado: hay clase de salida, si hay juego o no 
+- No supervisado: no hay clase de salida especifica, o se pide generar reglas de asociacion
+	- Clustering
+	- Reglas de asociación
