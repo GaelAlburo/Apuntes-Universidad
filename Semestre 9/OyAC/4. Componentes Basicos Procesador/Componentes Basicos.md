@@ -70,3 +70,18 @@ ___
 ![[Pasted image 20240926075741.png|center]]
 
 Salidas del ACC: Banderas Z y N
+
+___
+# Registros Contadores
+
+![[Pasted image 20241010072414.png|center]]
+
+Se tienen 5 registros contadores:
+- Y
+- X
+- RA
+- AP
+- PC
+Estos tienen la misma arquitectura. Tanto X como Y tienen las mismas lineas de control. Solo va a estar activo el registro Y o el X, no los dos a la vez.
+
+No se puede pasar la parte baja de un registro a la parte alta de otra, o viceversa

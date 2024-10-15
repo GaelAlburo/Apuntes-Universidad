@@ -1,4 +1,4 @@
-                                                                                                                                                                # Secuenciador Básico
+# Secuenciador Básico
 
 ![[Pasted image 20240919115846.png|center|400]]
 
