@@ -85,3 +85,58 @@ Se tienen 5 registros contadores:
 Estos tienen la misma arquitectura. Tanto X como Y tienen las mismas lineas de control. Solo va a estar activo el registro Y o el X, no los dos a la vez.
 
 No se puede pasar la parte baja de un registro a la parte alta de otra, o viceversa
+
+# Registro de Estados / Banderas / CCR (*Condition Code Register*)
+
+Contiene los valores de ocho variables que indican el estado de los distintos componentes de la arquitectura. Estos valores pueden venir de alguno de los elementos que integran a la arquitectura, o bien, del bus de datos.
+
+- C: Bit de acarreo/borrow. Generada por la UPA en sumas y restas
+
+- V: Bit de sobreflujo (overflow). Se usan numeros con signo
+
+- Z: Bit de cero. Indica si el resultado de la última operación que se realizó en la UPA, o el valor guardado en alguno de los registros (contadores, acumuladores), es igual a cero. 
+
+- N: Bit de negativo. Indica el signo del resultado de la UPA, o del valor guardado en alguno de los registros. 
+
+- I: Bit de interrupción I. Habilita el dispositivo I. Habilita con un cero, y deshabilita con un uno, las interrupciones conectadas a la línea IRQ. 
+
+- H: Bit de medio acarreo. Acarreo de 4 bits menos significativos de la UPA. Se utiliza en operaciones donde se usan números con formato BCD. 
+
+- X: Bit de interrupción X. Habilita el dispositivo X. Habilita con un cero, y deshabilita con un uno, las interrupciones conectadas a la línea XIRQ. 
+
+- S: Bit de stop. Pone al microprocesador en bajo consumo de energía. Pone en stand by al procesador
+
+
+El bit mas significativo indica el signo:
+	1110 -> Representa 14, o si tomamos en cuenta el signo, es un -2
+Todos los numeros negativos siempre estan en complemento a 2 (de aqui sale el -2 de 14)
+
+>[!info] Si la suma de 2 numeros positivos muy grandes genera un numero negativo, por lo tanto hay overflow. Y viceversa
+
+Las operaciones las define el programador, no siempre se toma en cuenta el signo para las operaciones.
+
+![[Pasted image 20241015073542.png|center]]
+
+Las líneas d7 a d0 conectan al registro de banderas con el bus de datos. Los circuitos tres estados, en conjunto con la señal HB , aíslan o conectan el registro de banderas al bus de datos interno.
+
+Las líneas CC, CV, CZ, CN, CI, CH, CX y CS controlan los relojes de los flip-flops asociados a las banderas.
+
+Las líneas B9 a B0 controlan la selección de los multiplexores.
+Por ejemplo para la bandera de Z, si B5B4B3=000 se selecciona la bandera de Z de la UPA, si B5B4B3=001 la del acumulador A. Para seleccionar el resto de las banderas se procede de manera similar
+
+#### Ejercicios
+1- PCbaja <- CCR
+
+![[Pasted image 20241015081735.png|center]]
+
+R  S   Q
+0  0    No cambia
+0  1    1 - Modo set  (en espera de una interrupcion)
+1 0    0 - Modo reset
+1 1    No deseada
+
+1. Los flip flops se ponen en modo set
+2. Habilita la atencion a interruptores
+3. Escuchar las interrupciones de los dispositivos I y X
+	1. Cuando exista una interrupcion, los flip flop se ponen en modo reset
+4. Cuando se termine de ejecutar la interrupcion los Flip Flop deben regresar a modo set
