@@ -34,3 +34,4 @@ B = Y //El resultado final se mantiene en B4
 
 - Para leer el contenido del registro Y, se deben activar E0UPA y DUPA
 - Deshabilitamo el DUPA ,m 
+- El guardado en A y las banderas se pueden hacer en un mismo estado ya que en el primer estado se hizo la operacion
