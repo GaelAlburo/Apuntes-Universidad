@@ -79,3 +79,129 @@ in terminal we set the environtment variables:
 export MONGO_DB_USER=admin
 export MONGO_DB_PASS=pass123
 export MONGO_DB_HOST=localhost
+
+___
+
+
+-we left on creating BookModel.
+	- it can connect to mongodb
+	- it doesn't do any operations
+
+------------------------------------------------
+
+we did:
+- Logger
+- Model
+
+We must create:
+- service
+- schema (validations)
+- routes
+- deploy(app)
+- integrate UI
+
+----------------------------------------------
+SERVICE
+
+we create bookshelf-back/services/book_services.py
+
+when we have the service code
+we execute the service file.
+
+export PYTHONPATH
+
+--------------------------------------------
+
+we wont do the schemas for now, we dont need to validate anything when reading
+
+--------------------------------------------
+
+ROUTES:
+bookshelf-back/routes/book_routes.py
+
+well use the method blueprint.
+So we can reuse routes, and we can create a route table. We assign a route to a method
+
+blueprint allows us to create a routing table, so we can map the routes, methods and type of request (GET, POST, etc)
+With it we can also reutilize this routing table
+
+-----------------------------------------
+APP:
+
+bookshelf-back/app.py
+
+we execute the app.py
+
+in another terminal we do: curl -X GET https://localhost:5000/api/v1/books (or http://127.0.0.1:5000/api/v1/books)
+
+--------------------------------------
+
+INTEGRATE UI
+
+well create a soft link: ln -s ~/frontend/examples/bookshelf ./bookshelf-front
+	a symbolic link. (a direct access in Windows). 
+
+when we execute the command we do it inside /backend/examples
+well get a reference to the whole frontend project inside our backend directory
+
+
+we have to install axios: (axios allows us to do calls to the API)
+	npm install axios (inside backend/examples/bookshelf-front)
+
+
+FRONTEND:
+Inside our app/page.jsx
+Well also import useEffect alongside useState
+
+import axios from "axios";
+
+
+- on line 15, well change the field 'id' to '_id'
+
+- on line 69, const [rows, setRows] = useState(initialRows) change to: useState()
+
+- we delete the whole constants folder
+
+- we also delete the initialRows import
+
+- after const [alert, setAlert]:
+
+useEffect(() => {
+	fetchBooks();
+}, [])
+
+const fetchBooks = async () => {
+  try{
+    const response = await axios.get("https://localhost:5000/api/v1/books") # when we containerize, we dont use localhost, we must place the service name and the port
+    setRows(response.data)
+  }
+  catch (error) {
+    console.error("Error fetching books:", error);
+    setAlert({message: 'Failed to load books', severity: 'error'})
+    setOpenAlert(true);
+  }
+}
+
+
+
+
+CORS is a security. We must define who can and cant access to our API. If we dont configure it we wont see anything in front
+
+- in out venv we install (back): pip3 install flask-cors
+
+in our app.py: we set who has permission to our API with CORS(app)
+
+
+
+Bakc to FRONT:
+In our DataGrid we place:
+	getRowId={(row) => row._id}
+
+
+
+
+
+------------------------------------------------------------------------------------
+CREATE 
+
+1. we modify the service
