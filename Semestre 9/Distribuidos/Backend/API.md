@@ -55,7 +55,7 @@ Inside the connection there will already be 2 DBs
 
 We create  a new DB called microservices, iwth a collection called *books*
 
-Inside it we create a new document:
+Inside it we create a new document called books:
 ```json
 [
 	{
@@ -108,7 +108,10 @@ we create bookshelf-back/services/book_services.py
 when we have the service code
 we execute the service file.
 
-export PYTHONPATH
+`export PYTHONPATH=$PYTHONPATH:$(pwd)`
+
+Windows:
+`$env:PYTHONPATH = "C:\Users\PC\OneDrive\Escritorio\Universidad\Semestre9\Distribuidos\backend\project\backend-project"`
 
 --------------------------------------------
 
@@ -205,3 +208,41 @@ In our DataGrid we place:
 CREATE 
 
 1. we modify the service
+
+___
+
+Now we'll create the SCHEMAS. To validate our data before storing it in the DB
+
+- We'll validate with `marshmallow`
+	- pip3 install marshmallow
+
+Once we've created our Schema, and tested it, we'll create a POST route in our `book_routes.py`
+
+____
+Now that we can create a book from POST/api/v1/books
+
+Were going to implement validation on the frontend
+
+Were going to implement it inside BookDialog, because in it we implemented the `saveBook()` function
+- We'll modify this function so it works asynchronous
+- And well call the API from this component
+
+___
+UPDATE Operations:
+
+Were gonna add 2 new functions in our service:
+- a search in our DB for the id of the book we want to update (well use it in UPDATE and DELETE)
+- update function
+
+Now that we have our updated done and tested we need to create our new route.
+In this case we dont have to do the Schema all over again, we can reuse it
+
+Now we have to do the connection to the frontend, so when we edit a book inside the BookDialog it uses the api to do so
+
+___
+DELETE Operation:
+
+Were going to reuse the `get_book_by_id` method to delete a specific book from the DB
+
+In the frontend we dont do it in BookDialog anymore (since it only does edits and creates), the delete is implemented in the front page
+

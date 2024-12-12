@@ -1,4 +1,4 @@
-ziiuhw
+ Sumziiuhw
 Secuenciador Basico - Funcion principal: Controla todos los demas componentes
 
 # Tipos de Acceso
