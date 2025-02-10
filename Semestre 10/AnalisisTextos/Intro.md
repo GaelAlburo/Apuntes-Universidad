@@ -1,3 +1,5 @@
+Classroom: imzvtdo
+
 token
 gramatica
 	1ro
@@ -46,4 +48,68 @@ Las relaciones paradigmáticas sirven para:
 
 Campos semanticos:
 - palabras relacionadas, mismos significados, parecidos
+
+
+___
+
+Bibliotecas de Python:
+- numpy
+- scipy
+- pandas
+- gensim - mineria 
+- scitik-learn
+- nltk - good for learning
+- spaci - PLN para prod. optimizada
+
+___
+
+SIntactica = Sintagmatica (sinonimos)
+
+# Relacion paradigmatica
+
+Documento: Relacion de palabras de cualquier longitud
+
+Similitud:
+- Un perro duerme - (Buscando en google, se tienen 326k resultados)
+- Un gato duerme - (367k resultados)
+- Una idea duerme (1 resultado)
+
+
+**Modelo: Bolsa de palabras (BoW - Bag of Words)**
+- Toma un documento y cuenta las palabras
+
+Documento 1: Un perro duerme
+{
+- Un: 1
+- Perro: 1
+- Duerme: 1
+}
+
+Documento 2: Un gato duerme
+{
+- Un: 1
+- Gato: 1
+- Duerme: 1
+}
+
+El EWOC toma en cuenta cuantas palabras en comun dos documentos, y el conteo de cada palabra.
+
+
+**Modelo: Expected Overlap of Words in Context (EWOC)**
+
+Cada documento es una secuencia de palabras:
+$d = {x_1, x_2, ..., x_n}$
+Donde cada $x$ es una palabra en el documento
+
+Adicionalmente se debe normalizar:
+$x_i=(count(w_i),d_1)/|d_!|$
+
+___
+EL vocabulario es cada palabra unica que aparece en cada documento analizado
+`vocabulario = [un, perro, gato, idea, una, duerme]`
+`d1 = [1, 1, 0, 0, 0, 1]`
+`d2 = [1, 0, 1, 0, 0, 1]`
+`d3 = [0, 0, 0, 1, 1, 1]`
+
+Normalizando:
 
