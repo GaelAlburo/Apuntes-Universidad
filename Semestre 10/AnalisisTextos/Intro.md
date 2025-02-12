@@ -102,14 +102,22 @@ $d = {x_1, x_2, ..., x_n}$
 Donde cada $x$ es una palabra en el documento
 
 Adicionalmente se debe normalizar:
-$x_i=(count(w_i),d_1)/|d_!|$
+$x_i=(count(w_i),d_1)/|d_1|$
 
 ___
 EL vocabulario es cada palabra unica que aparece en cada documento analizado
-`vocabulario = [un, perro, gato, idea, una, duerme]`
+`vb = [un, perro, gato, idea, una, duerme]`
 `d1 = [1, 1, 0, 0, 0, 1]`
 `d2 = [1, 0, 1, 0, 0, 1]`
 `d3 = [0, 0, 0, 1, 1, 1]`
 
-Normalizando:
+Normalizando se divide entre el tamano del documento:
+
+Producto punto: Que tanto se parecen dos vectores. La cantidad de componentes de un vector que esta en otro vector
+
+SImilitud(d1, d2) = d1 \* d2
+
+Tratamos de encontrar la similitud de dos palabras:
+$Sim(w_1, w_2) \, = \, Sim(izq1(w1), izq1(w2)) + Sim(der1(w_1), der1(w_2)) + ...$
+Buscamos la similitud de las palabras anteriores y posteriores  de la palabra especifica. Con estas subsimilitudes definimos su similitud final.
 
