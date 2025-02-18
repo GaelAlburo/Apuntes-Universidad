@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "7aa56d413ce93436",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac9021fddd09bcf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78b355772e3668f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semestre 10/AnalisisTextos/Intro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Intro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c963ce7ec34a2290",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ee2f6385aeb22fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f5d6a071db4f698",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "64095f7d9b409482",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b556ed1b04b82757",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f6ee6079300d5ae4",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc7a776a7eea18e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94c0cb57f4f9036c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Semestre 10/Seguridad/1. Fundamentos Teoricos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1. Fundamentos Teoricos"
+            }
+          },
+          {
+            "id": "cecc1c1ffa252b8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Semestre 10/Seguridad/1. Fundamentos Teoricos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1. Fundamentos Teoricos"
+            }
+          },
+          {
+            "id": "9d5bfd4e34852e4c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5a20176ed6f7e6fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Semestre 10/Seguridad/1. Fundamentos Teoricos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1. Fundamentos Teoricos"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "iconic:Open rulebook": false
+    }
+  },
+  "active": "78b355772e3668f7",
+  "lastOpenFiles": [
+    "evidencia_2025-02-17:11:00:00.png",
+    "Pasted image 20250217225926.png",
+    "Pasted image 20250217225855.png",
+    "Pasted image 20250217225213.png",
+    "Semestre 10/Cuantica/Intro.md",
+    "Semestre 10/AdminServInt/Intro.md",
+    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
+    "Pasted image 20250217023700.png",
+    "Pasted image 20250217023603.png",
+    "Pasted image 20250217023330.png",
+    "Pasted image 20250217023148.png",
+    "Pasted image 20250217022957.png",
+    "Semestre 10/AnalisisTextos/Intro.md",
+    "Semestre 10/AnalisisTextos/PLN.md",
+    "Semestre 10/Seguridad/1. Fundamentos Teóricos.md",
+    "Semestre 10/Criptografia/Cifrado Cesar.md",
+    "Semestre 10/Seguridad/Intro.md"
+  ]
+}

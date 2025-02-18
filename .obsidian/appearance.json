@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#f39b9d",
+  "baseFontSize": 14,
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "imgCenter",
+    "CanvasSnippets"
+  ],
+  "cssTheme": ""
+}

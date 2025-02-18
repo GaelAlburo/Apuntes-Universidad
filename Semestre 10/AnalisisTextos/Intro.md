@@ -104,6 +104,9 @@ Donde cada $x$ es una palabra en el documento
 Adicionalmente se debe normalizar:
 $x_i=(count(w_i),d_1)/|d_1|$
 
+Donde:
+$d$ representa la longitud del documento
+$w$ representa una palabra
 ___
 EL vocabulario es cada palabra unica que aparece en cada documento analizado
 `vb = [un, perro, gato, idea, una, duerme]`
@@ -121,3 +124,30 @@ Tratamos de encontrar la similitud de dos palabras:
 $Sim(w_1, w_2) \, = \, Sim(izq1(w1), izq1(w2)) + Sim(der1(w_1), der1(w_2)) + ...$
 Buscamos la similitud de las palabras anteriores y posteriores  de la palabra especifica. Con estas subsimilitudes definimos su similitud final.
 
+___
+
+VSM (Vector Space Model)
+
+$IDF(w) \, = \, log \dfrac {N} {|\{d \in C | w \in d\}| + 1}$
+$N$: 
+
+$TfIDF(w_x,d_i)\, = \, TF(w_x, d_i) * IDf(w_x)$
+
+>[!info] Programar VSM. 
+
+- Obtener 4 documentos de wikipedia. preferentemente automatico (guitarra, violin, Espana, Mexico)
+	- Seran la entrada del programa: archivos .txt (UTF-8)
+- convertir a minusculas, no es necesario quitar acentos
+- eliminar caracteres que no sean letras o espacios (puntuacion, numeros). 
+	- se puede trabajar con n~. Preferentemente usar `isalpha, isspace` en lugar de regex
+	- usar espacios como separador de palabras
+- Se tiene el BoW
+- Implementar VSM
+
+EL programa debe:
+- Mostrar la distancia entre los articulos
+- Mostrar cuales son las 10 palabras
+
+
+
+git key: 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
