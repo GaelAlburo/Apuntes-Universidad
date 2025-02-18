@@ -141,7 +141,6 @@ $TfIDF(w_x,d_i)\, = \, TF(w_x, d_i) * IDf(w_x)$
 - eliminar caracteres que no sean letras o espacios (puntuacion, numeros). 
 	- se puede trabajar con n~. Preferentemente usar `isalpha, isspace` en lugar de regex
 	- usar espacios como separador de palabras
-- Se tiene el BoW
 - Implementar VSM
 
 EL programa debe:
