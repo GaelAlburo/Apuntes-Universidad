@@ -147,6 +147,3 @@ $TfIDF(w_x,d_i)\, = \, TF(w_x, d_i) * IDf(w_x)$
 EL programa debe:
 - Mostrar la distancia entre los articulos
 - Mostrar cuales son las 10 palabras
-
-
-	
