@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Cuantica/Multiples Qubits.md",
+                "file": "Semestre 10/Criptografia/Funciones principales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multiples Qubits"
+              "title": "Funciones principales"
             }
           }
         ]
@@ -170,33 +170,37 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "7f5d6a071db4f698",
+  "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Cuantica/imgs",
-    "Semestre 10/Cuantica/imgs/Pasted image 20250219113911.png",
-    "Semestre 10/Cuantica/Medicion en Computacion Cuantica.md",
-    "Semestre 10/Cuantica/Multiples Qubits.md",
-    "Semestre 10/AnalisisTextos/Probabilidad.md",
-    "Semestre 10/Criptografia/Funciones principales.md",
-    "Semestre 10/Criptografia/Intro.md",
     "Semestre 10/Criptografia/1..md",
-    "Semestre 10/AnalisisTextos/Intro.md",
-    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
+    "Semestre 10/Criptografia/Funciones principales.md",
+    "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
+    "Semestre 10/Seguridad/Imgs/2_1_HistoricoCC.png",
+    "Semestre 10/Seguridad/Intro.md",
     "Semestre 10/Seguridad/1. Fundamentos Teóricos.md",
+    "Semestre 10/AdminServInt/Ejercicio Practico 2.md",
+    "Semestre 10/AdminServInt/imgs_ej1/C6.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C7_1.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C7_2.png",
+    "Servicio.md",
+    "Semestre 10/AdminServInt/imgs_ej1/C3.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C5.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C4.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C2.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C1_2.png",
+    "Semestre 10/AdminServInt/imgs_ej1/C1_1.png",
+    "Semestre 10/AdminServInt/imgs_ej1",
     "Semestre 10/AdminServInt/2. Servidor de Correo Electronico.md",
     "Semestre 10/AdminServInt/Intro.md",
+    "Semestre 10/Cuantica/Multiples Qubits.md",
+    "Semestre 10/Cuantica/imgs",
+    "Semestre 10/Cuantica/Medicion en Computacion Cuantica.md",
+    "Semestre 10/AnalisisTextos/Probabilidad.md",
+    "Semestre 10/Criptografia/Intro.md",
+    "Semestre 10/AnalisisTextos/Intro.md",
+    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
     "Semestre 10/AnalisisTextos/PLN.md",
-    "evidencia_2025-02-17:11:00:00.png",
-    "Pasted image 20250217225926.png",
-    "Pasted image 20250217225855.png",
-    "Pasted image 20250217225213.png",
     "Semestre 10/Cuantica/Intro.md",
-    "Pasted image 20250217023700.png",
-    "Pasted image 20250217023603.png",
-    "Pasted image 20250217023330.png",
-    "Pasted image 20250217023148.png",
-    "Pasted image 20250217022957.png",
-    "Semestre 10/Criptografia/Cifrado Cesar.md",
-    "Semestre 10/Seguridad/Intro.md"
+    "Semestre 10/Criptografia/Cifrado Cesar.md"
   ]
 }
