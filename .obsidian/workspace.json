@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Criptografia/Funciones principales.md",
+                "file": "Semestre 10/Cuantica/2. Bits y Qubits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funciones principales"
+              "title": "2. Bits y Qubits"
             }
           }
         ]
@@ -172,8 +172,10 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Criptografia/1..md",
+    "Semestre 10/Cuantica/1. Números Complejos y Algebra Lineal.md",
+    "Semestre 10/Cuantica/Intro.md",
     "Semestre 10/Criptografia/Funciones principales.md",
+    "Semestre 10/Criptografia/1..md",
     "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
     "Semestre 10/Seguridad/Imgs/2_1_HistoricoCC.png",
     "Semestre 10/Seguridad/Intro.md",
@@ -200,7 +202,6 @@
     "Semestre 10/AnalisisTextos/Intro.md",
     "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
     "Semestre 10/AnalisisTextos/PLN.md",
-    "Semestre 10/Cuantica/Intro.md",
     "Semestre 10/Criptografia/Cifrado Cesar.md"
   ]
 }
