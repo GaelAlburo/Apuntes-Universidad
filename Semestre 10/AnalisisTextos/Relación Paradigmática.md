@@ -1,0 +1,81 @@
+# Relacion paradigmatica
+
+Documento: Relacion de palabras de cualquier longitud
+
+Similitud:
+- Un perro duerme - (Buscando en google, se tienen 326k resultados)
+- Un gato duerme - (367k resultados)
+- Una idea duerme (1 resultado)
+
+
+**Modelo: Bolsa de palabras (BoW - Bag of Words)**
+- Toma un documento y cuenta las palabras
+
+Documento 1: Un perro duerme
+{
+- Un: 1
+- Perro: 1
+- Duerme: 1
+}
+
+Documento 2: Un gato duerme
+{
+- Un: 1
+- Gato: 1
+- Duerme: 1
+}
+
+El EWOC toma en cuenta cuantas palabras en comun dos documentos, y el conteo de cada palabra.
+
+
+**Modelo: Expected Overlap of Words in Context (EWOC)**
+
+Cada documento es una secuencia de palabras:
+$d = {x_1, x_2, ..., x_n}$
+Donde cada $x$ es una palabra en el documento
+
+Adicionalmente se debe normalizar:
+$x_i=(count(w_i),d_1)/|d_1|$
+
+Donde:
+$d$ representa la longitud del documento
+$w$ representa una palabra
+___
+EL vocabulario es cada palabra unica que aparece en cada documento analizado
+`vb = [un, perro, gato, idea, una, duerme]`
+`d1 = [1, 1, 0, 0, 0, 1]`
+`d2 = [1, 0, 1, 0, 0, 1]`
+`d3 = [0, 0, 0, 1, 1, 1]`
+
+Normalizando se divide entre el tamano del documento:
+
+Producto punto: Que tanto se parecen dos vectores. La cantidad de componentes de un vector que esta en otro vector
+
+SImilitud(d1, d2) = d1 \* d2
+
+Tratamos de encontrar la similitud de dos palabras:
+$Sim(w_1, w_2) \, = \, Sim(izq1(w1), izq1(w2)) + Sim(der1(w_1), der1(w_2)) + ...$
+Buscamos la similitud de las palabras anteriores y posteriores  de la palabra especifica. Con estas subsimilitudes definimos su similitud final.
+
+___
+
+VSM (Vector Space Model)
+
+$IDF(w) \, = \, log \dfrac {N} {|\{d \in C | w \in d\}| + 1}$
+$N$: 
+
+$TfIDF(w_x,d_i)\, = \, TF(w_x, d_i) * IDf(w_x)$
+
+>[!info] Programar VSM. 
+
+- Obtener 4 documentos de wikipedia. preferentemente automatico (guitarra, violin, Espana, Mexico)
+	- Seran la entrada del programa: archivos .txt (UTF-8)
+- convertir a minusculas, no es necesario quitar acentos
+- eliminar caracteres que no sean letras o espacios (puntuacion, numeros). 
+	- se puede trabajar con n~. Preferentemente usar `isalpha, isspace` en lugar de regex
+	- usar espacios como separador de palabras
+- Implementar VSM
+
+EL programa debe:
+- Mostrar la distancia entre los articulos
+- Mostrar cuales son las 10 palabras
