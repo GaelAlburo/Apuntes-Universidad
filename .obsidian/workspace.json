@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Cuantica/2. Bits y Qubits.md",
+                "file": "Semestre 10/Criptografia/Primitivas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Bits y Qubits"
+              "title": "Primitivas"
             }
           }
         ]
@@ -172,15 +172,20 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
+    "Semestre 10/Criptografia/Funciones principales.md",
+    "Semestre 10/Criptografia/Primitivas.md",
+    "Semestre 10/Seguridad/3. Clasificación de servicios de seguridad.md",
+    "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
+    "Semestre 10/AdminServInt/imgs_ej1/3. Servidor de conexión remota.md",
+    "Semestre 10/AdminServInt/Ejercicio Practico 2.md",
+    "Semestre 10/AdminServInt/2. Servidor de Correo Electronico.md",
+    "Semestre 10/Cuantica/2. Bits y Qubits.md",
     "Semestre 10/Cuantica/1. Números Complejos y Algebra Lineal.md",
     "Semestre 10/Cuantica/Intro.md",
-    "Semestre 10/Criptografia/Funciones principales.md",
     "Semestre 10/Criptografia/1..md",
-    "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
     "Semestre 10/Seguridad/Imgs/2_1_HistoricoCC.png",
     "Semestre 10/Seguridad/Intro.md",
     "Semestre 10/Seguridad/1. Fundamentos Teóricos.md",
-    "Semestre 10/AdminServInt/Ejercicio Practico 2.md",
     "Semestre 10/AdminServInt/imgs_ej1/C6.png",
     "Semestre 10/AdminServInt/imgs_ej1/C7_1.png",
     "Semestre 10/AdminServInt/imgs_ej1/C7_2.png",
@@ -192,7 +197,6 @@
     "Semestre 10/AdminServInt/imgs_ej1/C1_2.png",
     "Semestre 10/AdminServInt/imgs_ej1/C1_1.png",
     "Semestre 10/AdminServInt/imgs_ej1",
-    "Semestre 10/AdminServInt/2. Servidor de Correo Electronico.md",
     "Semestre 10/AdminServInt/Intro.md",
     "Semestre 10/Cuantica/Multiples Qubits.md",
     "Semestre 10/Cuantica/imgs",

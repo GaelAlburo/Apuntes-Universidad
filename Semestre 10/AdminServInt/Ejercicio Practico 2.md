@@ -90,3 +90,10 @@ sudo su # Se accesa a root
 ![[C7_2.png]]
 
 EN la terminal se puede observar el contenido del correo, tanto las cabeceras de MIME, como los metadatos y el dato enviado en si 
+
+___
+
+- Configuracion sendmail
+- cp -> copy archivos
+- chown -> change owner
+- root -> superuser do

@@ -112,3 +112,5 @@ Dominio ($M$) -> Codominio ($C$)
 
 
 >[!info] 
+
+
