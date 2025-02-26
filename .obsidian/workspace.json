@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Criptografia/Primitivas.md",
+                "file": "Semestre 10/Cuantica/5. Circuitos Cuanticos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primitivas"
+              "title": "5. Circuitos Cuanticos"
             }
           }
         ]
@@ -172,8 +172,14 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Criptografia/Funciones principales.md",
+    "Semestre 10/Cuantica/4. Paralelismo Cuantico.md",
+    "Semestre 10/Cuantica/5. Circuitos Cuanticos.md",
+    "Semestre 10/Cuantica/3. Medicion en Computacion Cuantica.md",
+    "Semestre 10/Cuantica/Untitled.md",
+    "Semestre 10/AnalisisTextos/Probabilidad.md",
+    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
     "Semestre 10/Criptografia/Primitivas.md",
+    "Semestre 10/Criptografia/Funciones principales.md",
     "Semestre 10/Seguridad/3. Clasificación de servicios de seguridad.md",
     "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
     "Semestre 10/AdminServInt/imgs_ej1/3. Servidor de conexión remota.md",
@@ -201,11 +207,8 @@
     "Semestre 10/Cuantica/Multiples Qubits.md",
     "Semestre 10/Cuantica/imgs",
     "Semestre 10/Cuantica/Medicion en Computacion Cuantica.md",
-    "Semestre 10/AnalisisTextos/Probabilidad.md",
     "Semestre 10/Criptografia/Intro.md",
     "Semestre 10/AnalisisTextos/Intro.md",
-    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
-    "Semestre 10/AnalisisTextos/PLN.md",
-    "Semestre 10/Criptografia/Cifrado Cesar.md"
+    "Semestre 10/AnalisisTextos/PLN.md"
   ]
 }
