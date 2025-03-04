@@ -1,4 +1,4 @@
-P(A) = p
+ccc c2 vvvc2d f P(A) = p
 P(-A) = 1-p
 P(A, B) = P(A) P(B)
 

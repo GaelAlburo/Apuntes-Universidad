@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Seguridad/3. Clasificación de servicios de seguridad.md",
+                "file": "Semestre 10/AnalisisTextos/Probabilidad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Clasificación de servicios de seguridad"
+              "title": "Probabilidad"
+            }
+          },
+          {
+            "id": "522183bfaeb90681",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semestre 10/Cuantica/6. Protocolos de Comunicacion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Protocolos de Comunicacion"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semestre 10/Seguridad/1. Fundamentos Teoricos.md",
+                "file": "Semestre 10/Cuantica/6. Protocolos de Comunicacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1. Fundamentos Teoricos"
+              "title": "Outgoing links from 6. Protocolos de Comunicacion"
             }
           },
           {
@@ -142,20 +157,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semestre 10/Seguridad/1. Fundamentos Teoricos.md",
+                "file": "Semestre 10/Cuantica/6. Protocolos de Comunicacion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1. Fundamentos Teoricos"
+              "title": "Outline of 6. Protocolos de Comunicacion"
+            }
+          },
+          {
+            "id": "5e1b4ff4a0c99324",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -170,17 +196,19 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "2d181b6928f64c83",
+  "active": "522183bfaeb90681",
   "lastOpenFiles": [
-    "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
+    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
+    "Semestre 10/Cuantica/6. Protocolos de Comunicacion.md",
+    "Semestre 10/AnalisisTextos/Probabilidad.md",
+    "Semestre 10/AnalisisTextos/Relación Paradigmática.md",
     "Semestre 10/Seguridad/3. Clasificación de servicios de seguridad.md",
+    "Semestre 10/Seguridad/2. Normatividad de la seguridad informática.md",
     "Semestre 10/Cuantica/5. Circuitos Cuanticos.md",
     "Pasted image 20250226170144.png",
     "Semestre 10/Cuantica/4. Paralelismo Cuantico.md",
     "Semestre 10/Cuantica/3. Medicion en Computacion Cuantica.md",
     "Semestre 10/Cuantica/Untitled.md",
-    "Semestre 10/AnalisisTextos/Probabilidad.md",
-    "Semestre 10/AnalisisTextos/Relaciones Sintacticas.md",
     "Semestre 10/Criptografia/Primitivas.md",
     "Semestre 10/Criptografia/Funciones principales.md",
     "Semestre 10/AdminServInt/imgs_ej1/3. Servidor de conexión remota.md",
@@ -207,7 +235,6 @@
     "Semestre 10/Cuantica/Multiples Qubits.md",
     "Semestre 10/Cuantica/imgs",
     "Semestre 10/Cuantica/Medicion en Computacion Cuantica.md",
-    "Semestre 10/Criptografia/Intro.md",
-    "Semestre 10/AnalisisTextos/Intro.md"
+    "Semestre 10/Criptografia/Intro.md"
   ]
 }
