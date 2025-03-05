@@ -17,7 +17,7 @@
   "dialogState": {
     "iconMode": true,
     "emojiMode": false,
-    "rulePage": "file"
+    "rulePage": "folder"
   },
   "appIcons": {},
   "tabIcons": {},
@@ -26,6 +26,32 @@
   "tagIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {},
-  "fileRules": [],
-  "folderRules": []
+  "fileRules": [
+    {
+      "id": "PHn7b",
+      "name": "Folder Icons",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "kwxXr",
+      "name": "Untitled rule",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ]
 }
