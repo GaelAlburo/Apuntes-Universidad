@@ -111,4 +111,104 @@ $log(P(C))+count(w_i,d) \, \sum^M_{i=1} \,log(P(w_i|e))$
 
 >[!done] Programar este proceso de clasificacion. No usar librerias
 
+___
+
+$X_w \in \{0,1\}$
+$X_w = 1:$ w esta presente
+$X_w = 0:$ w no esta presente
+
+$P(x_w=1)+P(x_w=0) = 1$
+
+
+Eje Y: aleatoriedad (impredictibilidad)
+Eje X: Probabilidad de que caiga aguila es 0: $P(A=1) = 0$
+
+MIentras mas aleatoria es una variable, es donde alcanza su pico en la gráfica.
+Esto es la entropia.
+
+La evolución es un fenómeno biológico de la entropia
+
+Entropia:
+$H(X_w) \, = \, \sum_{v\in \{0, 1\}} P(X_w=v) \, log_2 P(X_w=v)$
+
+La entropia se mide en bits (porque es información)
+
+Predictibilidad: predecible verlo como no verlo
+Probable: verlo
+
+
+$P(x_A = 1) = 0.5$ -> En este punto hay mas impredictibilidad
+$[(0.5)(-1) + (0.5)(-1)]$
+
+$w_1$: carne -> mayor entropia
+$w_2$: la -> menor entropia
+$w_3$: unicornio -> menor entropia
+
+
+$H(X_{carne}) \, = \, -[P(x_{carne=1}) \, \, log_2 P(x_{carne}=1)+P(x_{carne}=0) \, \, log_2P(x_{carne}=0)]$
+$H(X_{carne}|X_{come}=1) \, = \, -[P(X_{carne}=1|X_{come}=1) \, \, log_2 P(X_{carne}=1|X_{come}=1)+P(X_{carne}=0|X_{come}=0) \, \, log_2P(X_{carne}=0|X_{come}=0)]$
+$H(X_{carne}|X_{come}=0)$ -> Similar a anterior
+
+
+Entropia de una variable dada otra:
+$H(X_{carne} | X_{come}) \, = \, \sum_{U\in\{0,1\}} P(X_{come}=U) \, H(X_{carne}|X_{come}=U)$
+$= \, \sum_{U \in \{0,1\}} [P(X_{come}=U) \, \Big( -\sum_{V\in \{0,1\}} P(X_{carne} = V) \Big)]$
+
+```
+para cada w1
+	para cada w2
+		calcular H(x_w1|x_w2)
+	ordenar ascendente H(x_w1|x_w2)
+tomar el top N
+```
+
+- Se puede comparar:
+EL mismo elemento en distintos universos. Que tanta informacion aporta el mismo elemento en distintas partes del sistema
+$H(X_1 | X_2)$
+$H(X_1 | X_3)$
+
+- NO se puede comparar
+Disintos elementos en el mismo universo
+$H(X_1 | X_2)$
+$H(X_3 | X_2)$
+
+___
+# Información Mutua
+
+$I(X; Y) \, = \, H(X) - H(X|Y) = H(Y)-H(Y|X)$
+
+Estan relacionadas $X$ y $Y$, porque observar $Y$ reduce la entropia de $X$ y viceversa
+
+$X$: wars tiene una cierta entropia $H$
+Pero si se observa $Y$: star, se reduce $H(X)$
+
+>[!info] Reduce la entropia se vuelve mas predecible
+
+>[!info] La información mutua es una medida de interdependencia
+
+- $I(X;Y) >= 0$
+- $I(X;Y) = I(Y;X)$
+- $I(X;Y) = 0$  iff $X$ y $Y$ son independientes 
+
+Se mide la divergencia:
+$$I(X_{w1}; Y_{w2}) \, = \, \sum_{U\in\{0,1\}} \, \sum_{V\in\{0,1\}} \, P\Big( X_{w1}=U, X_{w2}=V \Big) \, log_2 \dfrac{P(X_{w1}=U, X_{w2}=V)}{P(X_{w1}=U) P(X_{w2}=V)}$$
+Con el logaritmo restamos de nuestro valor la independencia. Una division de logarimo es equivalente a una resta
+SI diverge mucho, ambas variables son muy dependientes. Dando valor positivo
+SI no diverge, ambas variables son independientes. Por lo que sera negativo
+
+
+$$P(X_{w1}=1) + P(X_{w2}=0) = 1$$
+$$P(X_{w1}=1) = P(X_{w1}=1, X_{w2}=0) + P(X_{w1}=1, X_{w2} = 1)$$
+$$(X_{w2}=1) = P(X_{w1}=0, X_{w2}=1) + P(X_{w1}=1, X_{w2} = 1)$$
+
+Con esto tendríamos el mismo problema de sobreajuste que en el ejemplo de SPAM/HAM. Tendríamos que normalizar para evitar este problema:
+
+$$P(X_{w1}=1) \, = \, \dfrac{count(w_1, d) + 1}{|d| + 2}$$
+$$P(X_{w1}=1, X_{w2}=1) \, = \, \dfrac{count((w_1, w_2), d)) + 1}{|d| + 4}$$
+
+
+- Mayor entropia es un sistema impredecible, es vital
+- Menor entropia 
+
+Una lengua con poca entropia, son las lenguas muertas. Porque nadie creara nuevas palabras. En cambio las lenguas vivas y usadas actualmente son las que mayor entropia tienen.
 
