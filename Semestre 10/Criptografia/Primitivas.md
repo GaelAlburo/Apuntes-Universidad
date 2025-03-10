@@ -7,7 +7,6 @@ EL cifrado de llave simetrica asocia un **par de llaves** de cifrado/descifrado 
 
 - Key Source: Generador de llaves. 
 
-
 ___
 # Cifrado de Sustitucion
 
@@ -21,4 +20,23 @@ ___
 # Cifrado por Sustitucion Homofonica
 
 Consideramos $A = \{ a, b\}$ y que sus representaciones homofonicas son: $H(a) = \{ 00, 10 \}$ y $H(b) = \{ 01, 11\}$. El **bloque** de texto es $ab$
+
+____
+# Cifrado de Transposición
+
+Conjunto de llaves, o posibles transposiciones:
+$A=\{ a,b,c,...,z \}$
+$k=\{1, 2, ..., t\}$ -> transformaciones
+$e = k$
+
+$E_e(m)=\{m_e(1),\, m_e(2),\, ...,\, m_e(t) \} = C$  -> mensaje cifrado
+$d=e^{-1}$   -> inversa de la transformacion          $c=\{c_1, c_2, ..., c_t\}$  -> $t$ mensajes cifrados
+$D_d(c)=\{ c_d(1),\, c_d(2),\, ..., c_d(t) \}$  ->  descifrado
+
+___
+# Cifrado Playfair
+
+m = hola mundo
+k = cifrado
+
 
