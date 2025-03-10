@@ -5,7 +5,8 @@
   "showRibbon": true,
   "enabledCssSnippets": [
     "imgCenter",
-    "CanvasSnippets"
+    "CanvasSnippets",
+    "centerH1"
   ],
   "cssTheme": ""
 }
