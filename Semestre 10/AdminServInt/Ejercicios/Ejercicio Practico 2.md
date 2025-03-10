@@ -67,7 +67,7 @@ sudo chown gael:gael dovecot.conf # cambiamos permisos del archivo copiado
 
 Hacemos copia del archivo y cambiamos sus permisos
 
-![[C5.png]]
+![[Semestre 10/AdminServInt/Ejercicios/imgs_ej1/C5.png]]
 
 Hacemos copia y cambiamos permisos
 
@@ -83,7 +83,7 @@ sudo su # Se accesa a root
 
 ```
 
-![[C6.png]]
+![[Semestre 10/AdminServInt/Ejercicios/imgs_ej1/C6.png]]
 
 ![[C7_1.png]]
 
