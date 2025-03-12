@@ -39,4 +39,28 @@ ___
 m = hola mundo
 k = cifrado
 
+___
+# Cifrador Hill
+
+$E = (k,m) = (k*M) \: mod 26$
+
+Algoritmo de cifrado que utiliza matrices
+
+$m =$ morning          $k$ = dcdf
+
+$\begin{pmatrix}   c_1 \\ c_2 \\ c_3  \end{pmatrix} = \begin{bmatrix}   k_{11} & k_{12} & k_{13}\\   k_{21} & k_{22} & k_{23} \\ k_{31} & k_{32} & k_{33}   \end{bmatrix} \begin{bmatrix} m_1 \\ m2_ \\ m_3\end{bmatrix}$
+___
+# Cifrado Verman
+
+$A = \{0, 1\}$
+$k = \{ k_1, k_2, ..., k_m \}$
+$m$  tamano del bloque
+$M = \{ m_1, m_2, ..., m_t \}$
+$t$   tamano del mensaje
+
+$E_k = (k_i \oplus m_i) \, mod \, 26$
+
+m = MAR      k = XYZ
+$m_1$ = M = 12
+$k_1$ = x = 23
 
