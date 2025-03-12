@@ -114,3 +114,19 @@ Dominio ($M$) -> Codominio ($C$)
 >[!info] 
 
 
+___
+- Alfabeto
+$A = \{a, b, c, ..., z\}$
+- Llaves
+$k = \{e_1, e_2, ..., e_t\}$      $e \in k$
+$t$ : longitud del mensaje
+- Mensaje
+$M=\{m_1, m_2, ..., m_t\}$     $m \in M$
+- Funcion Cifrado
+$E_e(m) = \{ c \}$     $e, d \in k$
+- Funcion descifrado
+$D_d(m) = m$       $d = e^{-1}$
+
+- Mensaje cifrado
+$C = \{ c_1, c_2, ..., c_t \}$     $c \in C$
+
