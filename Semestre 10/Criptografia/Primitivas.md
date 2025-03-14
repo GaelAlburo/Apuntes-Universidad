@@ -36,8 +36,21 @@ $D_d(c)=\{ c_d(1),\, c_d(2),\, ..., c_d(t) \}$  ->  descifrado
 ___
 # Cifrado Playfair
 
-m = hola mundo
+m = hola poncho
 k = cifrado
+Alfabeto = {a, b, ..., z}
+
+Crea matriz de 5x5 (i,j juntas)
+- Relleno: $x$
+
+ho  la  po  nc  ho
+
+- La palabra a reemplazar es la letra a contrario en las coordenadas
+- La llave no debe terner repetidas:
+	- papalote
+	- palote
+	- gallo
+	- galo
 
 ___
 # Cifrador Hill
@@ -48,9 +61,12 @@ Algoritmo de cifrado que utiliza matrices
 
 $m =$ morning          $k$ = dcdf
 
-$\begin{pmatrix}   c_1 \\ c_2 \\ c_3  \end{pmatrix} = \begin{bmatrix}   k_{11} & k_{12} & k_{13}\\   k_{21} & k_{22} & k_{23} \\ k_{31} & k_{32} & k_{33}   \end{bmatrix} \begin{bmatrix} m_1 \\ m2_ \\ m_3\end{bmatrix}$
+- matriz maximo 3x3
+$\begin{pmatrix}   c_1 \\ c_2 \\ c_3  \end{pmatrix} = \begin{bmatrix}   k_{11} & k_{12} & k_{13}\\   k_{21} & k_{22} & k_{23} \\ k_{31} & k_{32} & k_{33}   \end{bmatrix} \begin{bmatrix} m_1 \\ m2_ \\ m_3 \end{bmatrix}$
+
+
 ___
-# Cifrado Verman
+# Cifrado Velman
 
 $A = \{0, 1\}$
 $k = \{ k_1, k_2, ..., k_m \}$
@@ -64,3 +80,26 @@ m = MAR      k = XYZ
 $m_1$ = M = 12
 $k_1$ = x = 23
 
+
+
+$A = \{ ., A, b, c, ..., ! \}$
+m = axz
+k = 
+
+
+>[!info] Integridad, No repudio, Autenticacion, Confidencialidad
+
+
+___
+# Almacenamiento Llaves
+
+Master key:
+- kek (key encryption kek)
+- dek (data encryptioon kek)
+
+## Ciclos de vida de las llaves criptograficas
+- Generacion
+- Reactivacion
+- Activacion
+- Suspendida
+- Imiticidad

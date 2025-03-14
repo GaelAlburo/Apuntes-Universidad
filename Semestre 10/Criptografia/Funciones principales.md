@@ -13,7 +13,7 @@ $f$ cada elemento $X$ a $Y$ es:
 	$f: X$ -> $Y$
 
 $y \in Y$  preimagen $y$ -> $x \in X$
-$Im(f) = f(x) = y$
+$Im(f) = f(x) = y$   
 
 ___
 # Funciones 1-way
@@ -24,6 +24,8 @@ $f: X$ -> $Y$
 - $f(x)$ es facil para toda $x \in X$ 
 - pero para toda $y \in Im(f)$
 
+$f(x) = y$ -> Muy facil de calcular
+$y = Im(f)$  -> Muy difical de calcular 
 
 **Trapdoor**
 
@@ -31,6 +33,16 @@ Funcion similar a 1-way pero que contiene una pista para poder desencriptar
 
 Almacenar la tabla donde se transformaron los valores. Asi podriamos transformar una funcion 1-way en una funcion trapdoor
 
+___
+# 1-1 Function
+
+Tdos los elementos de X tienen una imagen en Y. Pero no todos los elementos en Y tienen una X
+
+$Im(f) = y$
+
+$f(x) = y$     $x \in X$
+$g(y) = x$     $y \in Y$
+$g = f^{-1}$
 
 ___
 # Permutaciones
