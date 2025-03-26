@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Cuantica/Algoritmo de Simon.md",
+                "file": "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algoritmo de Simon"
+              "title": "2. Identificacion de ataques y tecnicas de infusion"
             }
           },
           {
@@ -197,16 +197,21 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/AdminServInt/Intro.md",
+    "Semestre 10/Seguridad/Tema 2/Untitled.md",
+    "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
+    "Semestre 10/Criptografia/DES.md",
+    "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
+    "Semestre 10/Seguridad/Imgs/Principio de Profundidad.png",
+    "Semestre 10/Seguridad/Tema 1/1. Fundamentos Teóricos.md",
+    "Semestre 10/Seguridad/Tema 2/1. Amenazas y Vulnerabilidades.md",
+    "Semestre 10/Seguridad/Tema 1/4. Metodología de Perfiles de Protección.md",
+    "Semestre 10/Seguridad/Tema 1/3. Clasificación de servicios de seguridad.md",
     "Semestre 10/Cuantica/Algoritmo de Simon.md",
+    "Semestre 10/AdminServInt/Intro.md",
     "Semestre 10/Cuantica/Untitled",
     "Semestre 10/Criptografia/Intercambio de llaves.md",
     "Semestre 10/Seguridad/Tema 1/2. Normatividad de la seguridad informática.md",
-    "Semestre 10/Seguridad/Tema 1/4. Metodología de Perfiles de Protección.md",
-    "Semestre 10/Seguridad/Tema 1/3. Clasificación de servicios de seguridad.md",
-    "Semestre 10/Seguridad/Tema 1/1. Fundamentos Teóricos.md",
     "Semestre 10/AnalisisTextos/4. Reglas de Asosiacion.md",
-    "Semestre 10/Seguridad/Tema 2/1. Amenazas y Vulnerabilidades.md",
     "Semestre 10/Criptografia/Primitivas.md",
     "Semestre 10/Criptografia/Funciones principales.md",
     "Semestre 10/Criptografia/Intro.md",
@@ -218,13 +223,9 @@
     "Semestre 10/Criptografia/1. Historia.md",
     "Semestre 10/AdminServInt/3. Servidor de Conexión Remota.md",
     "Semestre 10/AdminServInt/1. Servicios de Internet.md",
-    "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
     "index.html",
     "Semestre 10/AnalisisTextos/3. Relaciones Sintacticas.md",
     "Semestre 10/AnalisisTextos/2. Probabilidad.md",
-    "Semestre 10/AnalisisTextos/1. Relación Paradigmática.md",
-    "Semestre 10/AnalisisTextos/PLN.md",
-    "Semestre 10/AnalisisTextos/Informacion.md",
     "Semestre 10/AdminServInt/imgs/TCP-IP_envio_email.png",
     "Semestre 10/AdminServInt/imgs/Respuestas_SMTP.png",
     "Semestre 10/AdminServInt/imgs/OSI,TCP-IP.png",
@@ -235,7 +236,6 @@
     "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2/C5.png",
     "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2/C7.png",
     "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2/c6.png",
-    "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2/Pasted image 20250304080031.png",
     "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2",
     "Semestre 10/Seguridad/Tema 2",
     "Semestre 10/Seguridad/Tema 1",
