@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
+                "file": "Semestre 10/Cuantica/Algoritmos Cuánticos/14. Algoritmo de Grover.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Identificacion de ataques y tecnicas de infusion"
+              "title": "14. Algoritmo de Grover"
             }
           },
           {
@@ -197,8 +197,13 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Seguridad/Tema 2/Untitled.md",
+    "Semestre 10/Cuantica/Algoritmos Cuánticos/13. Algoritmo de Simon.md",
+    "Semestre 10/Cuantica/Algoritmos Cuánticos/14. Algoritmo de Grover.md",
+    "Semestre 10/AnalisisTextos/5. Frequent Term Based Clustering.md",
+    "Semestre 10/AnalisisTextos/3. Relaciones Sintacticas.md",
+    "Semestre 10/AnalisisTextos/4. Reglas de Asosiacion.md",
     "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
+    "Semestre 10/Seguridad/Tema 2/Untitled.md",
     "Semestre 10/Criptografia/DES.md",
     "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
     "Semestre 10/Seguridad/Imgs/Principio de Profundidad.png",
@@ -211,7 +216,6 @@
     "Semestre 10/Cuantica/Untitled",
     "Semestre 10/Criptografia/Intercambio de llaves.md",
     "Semestre 10/Seguridad/Tema 1/2. Normatividad de la seguridad informática.md",
-    "Semestre 10/AnalisisTextos/4. Reglas de Asosiacion.md",
     "Semestre 10/Criptografia/Primitivas.md",
     "Semestre 10/Criptografia/Funciones principales.md",
     "Semestre 10/Criptografia/Intro.md",
@@ -221,11 +225,7 @@
     "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 2.md",
     "Semestre 10/AdminServInt/Ejercicios/ENtre.md",
     "Semestre 10/Criptografia/1. Historia.md",
-    "Semestre 10/AdminServInt/3. Servidor de Conexión Remota.md",
-    "Semestre 10/AdminServInt/1. Servicios de Internet.md",
     "index.html",
-    "Semestre 10/AnalisisTextos/3. Relaciones Sintacticas.md",
-    "Semestre 10/AnalisisTextos/2. Probabilidad.md",
     "Semestre 10/AdminServInt/imgs/TCP-IP_envio_email.png",
     "Semestre 10/AdminServInt/imgs/Respuestas_SMTP.png",
     "Semestre 10/AdminServInt/imgs/OSI,TCP-IP.png",
