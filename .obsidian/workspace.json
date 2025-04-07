@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Criptografia/AES.md",
+                "file": "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AES"
+              "title": "3. Tipos de Ataques"
             }
           },
           {
@@ -197,8 +197,18 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
+    "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 4.md",
+    "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081558.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081859.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074947.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403080713.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074959.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074308.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074325.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4",
     "Semestre 10/Criptografia/AES.md",
+    "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
     "Semestre 10/AnalisisTextos/6. Creacion de Proyecto.md",
     "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
     "Semestre 10/Criptografia/Primitivas.md",
@@ -207,12 +217,6 @@
     "Semestre 10/Cuantica/imgs/Pasted image 20250323161738.png",
     "Semestre 10/Cuantica/imgs/Pasted image 20250323154944.png",
     "Semestre 10/Cuantica/imgs/Pasted image 20250323154822.png",
-    "Semestre 10/Cuantica/imgs/Pasted image 20250323124011.png",
-    "Semestre 10/AdminServInt/imgs/Pasted image 20250329222712.png",
-    "Semestre 10/AdminServInt/imgs/Pasted image 20250329205721.png",
-    "Semestre 10/AdminServInt/imgs/Pasted image 20250329205616.png",
-    "Semestre 10/AdminServInt/imgs/Pasted image 20250329203521.png",
-    "Semestre 10/AdminServInt/imgs/Pasted image 20250329203243.png",
     "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
     "Semestre 10/AnalisisTextos/5. Frequent Term Based Clustering.md",
     "Semestre 10/AdminServInt/Intro.md",
@@ -220,9 +224,7 @@
     "Semestre 10/Cuantica/Algoritmos Cuánticos/13. Algoritmo de Simon.md",
     "Semestre 10/AnalisisTextos/3. Relaciones Sintacticas.md",
     "Semestre 10/AnalisisTextos/4. Reglas de Asosiacion.md",
-    "Semestre 10/Seguridad/Tema 2/Untitled.md",
     "Semestre 10/Criptografia/DES.md",
-    "Semestre 10/Seguridad/Imgs/Principio de Profundidad.png",
     "Semestre 10/Seguridad/Tema 1/1. Fundamentos Teóricos.md",
     "Semestre 10/Seguridad/Tema 2/1. Amenazas y Vulnerabilidades.md",
     "Semestre 10/Seguridad/Tema 1/4. Metodología de Perfiles de Protección.md",
@@ -232,8 +234,6 @@
     "Semestre 10/Seguridad/Tema 1/2. Normatividad de la seguridad informática.md",
     "Semestre 10/Criptografia/Funciones principales.md",
     "Semestre 10/Criptografia/Intro.md",
-    "Semestre 10/Criptografia/Cifrado Cesar.md",
-    "Semestre 10/AdminServInt/2. Servidor de Correo Electronico.md",
     "index.html",
     "Semestre 10/AdminServInt/imgs",
     "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2",
