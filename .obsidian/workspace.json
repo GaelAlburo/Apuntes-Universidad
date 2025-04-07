@@ -11,14 +11,12 @@
             "id": "2d181b6928f64c83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
-                "mode": "source",
-                "source": false
+                "file": "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250407171701.png"
               },
-              "icon": "lucide-file",
-              "title": "3. Tipos de Ataques"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250407171701"
             }
           },
           {
@@ -195,9 +193,12 @@
       "iconic:Open rulebook": false
     }
   },
-  "active": "2d181b6928f64c83",
+  "active": "7f5d6a071db4f698",
   "lastOpenFiles": [
     "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 4.md",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250407171701.png",
+    "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
+    "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
     "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081558.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081859.png",
@@ -210,14 +211,11 @@
     "Semestre 10/Criptografia/AES.md",
     "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
     "Semestre 10/AnalisisTextos/6. Creacion de Proyecto.md",
-    "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
     "Semestre 10/Criptografia/Primitivas.md",
     "Semestre 10/Criptografia/Intercambio de llaves.md",
     "Semestre 10/AnalisisTextos/7. Topic Mining.md",
     "Semestre 10/Cuantica/imgs/Pasted image 20250323161738.png",
     "Semestre 10/Cuantica/imgs/Pasted image 20250323154944.png",
-    "Semestre 10/Cuantica/imgs/Pasted image 20250323154822.png",
-    "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
     "Semestre 10/AnalisisTextos/5. Frequent Term Based Clustering.md",
     "Semestre 10/AdminServInt/Intro.md",
     "Semestre 10/Cuantica/Algoritmos Cuánticos/14. Algoritmo de Grover.md",

@@ -27,3 +27,7 @@ C1:
 
 
 HAProxy
+
+
+![[Pasted image 20250407171701.png]]
+
