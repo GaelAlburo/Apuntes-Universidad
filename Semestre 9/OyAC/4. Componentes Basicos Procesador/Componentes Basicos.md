@@ -140,3 +140,9 @@ R  S   Q
 3. Escuchar las interrupciones de los dispositivos I y X
 	1. Cuando exista una interrupcion, los flip flop se ponen en modo reset
 4. Cuando se termine de ejecutar la interrupcion los Flip Flop deben regresar a modo set
+
+___
+
+![[Pasted image 20250405191456.png]]
+
+![[Pasted image 20250405191505.png]]

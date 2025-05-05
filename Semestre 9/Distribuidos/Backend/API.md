@@ -187,7 +187,7 @@ const fetchBooks = async () => {
 
 
 
-
+## CORS
 CORS is a security. We must define who can and cant access to our API. If we dont configure it we wont see anything in front
 
 - in out venv we install (back): pip3 install flask-cors

@@ -21,7 +21,7 @@ It defines specific branch responsibilities, such as main/master for production,
 
 - Complexity due to numerous branches, potentially leading to merge conflicts.  
 - Development and release frequency may be slower due to multi-step process.  
-- Requires team consensus and commitment to adhere to the strategy.
+- Requires team consensus ancommitment to adhere to the strategy.
 
 ___
 # 
