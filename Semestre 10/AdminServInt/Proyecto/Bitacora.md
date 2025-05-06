@@ -56,9 +56,9 @@ domain: swiftsharesproject.pw
 ____
 ## Nextcloud
 
-![[Pasted image 20250501185600.png]]
+![[Pasted image 20250505220239.png]]
 
-![[Pasted image 20250501190352.png]]
+
 
 
 
