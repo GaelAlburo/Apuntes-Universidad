@@ -11,12 +11,14 @@
             "id": "2d181b6928f64c83",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250505213046.png"
+                "file": "Semestre 10/Seguridad/Tema 4/Políticas de Seguridad Informática de la Organización.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250505213046"
+              "icon": "lucide-file",
+              "title": "Políticas de Seguridad Informática de la Organización"
             }
           },
           {
@@ -209,8 +211,20 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/AdminServInt/Proyecto/Bitacora.md",
+    "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
+    "Semestre 10/Seguridad/Tema 4/Políticas de Seguridad Informática de la Organización.md",
+    "Semestre 10/Seguridad/Tema 4",
+    "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
+    "Semestre 10/AdminServInt/Ejercicios/Ejercicio 5.md",
+    "Pasted image 20250506082356.png",
+    "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 2.md",
+    "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 4.md",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506074709.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506075916.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506080203.png",
     "Pasted image 20250505213046.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5",
+    "Semestre 10/AdminServInt/Proyecto/Bitacora.md",
     "Semestre 10/AnalisisTextos/7. Topic Mining.md",
     "Semestre 10/AdminServInt/Untitled",
     "Semestre 10/AnalisisTextos/PROYECTO.md",
@@ -220,17 +234,10 @@
     "Semestre 10/Cuantica/Algoritmos Cuánticos/13. Algoritmo de Simon.md",
     "Semestre 10/Cuantica/Algoritmos Cuánticos/14. Algoritmo de Grover.md",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250407171701.png",
-    "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 4.md",
-    "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
     "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
-    "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081558.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081859.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074947.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403080713.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074959.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074308.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074325.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4",
     "Semestre 10/Criptografia/AES.md",
     "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
@@ -245,14 +252,10 @@
     "Semestre 10/Seguridad/Tema 1/1. Fundamentos Teóricos.md",
     "Semestre 10/Seguridad/Tema 2/1. Amenazas y Vulnerabilidades.md",
     "Semestre 10/Seguridad/Tema 1/4. Metodología de Perfiles de Protección.md",
-    "Semestre 10/Seguridad/Tema 1/3. Clasificación de servicios de seguridad.md",
-    "Semestre 10/Cuantica/Algoritmo de Simon.md",
     "Semestre 10/Cuantica/Untitled",
     "index.html",
     "Semestre 10/AdminServInt/imgs",
     "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2",
-    "Semestre 10/Seguridad/Tema 2",
-    "Semestre 10/Seguridad/Tema 1",
-    "Semestre 10/AdminServInt/Ejercicios"
+    "Semestre 10/Seguridad/Tema 2"
   ]
 }
