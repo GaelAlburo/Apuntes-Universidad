@@ -32,7 +32,7 @@ sudo nano /etc/mail/local-host-name # COnfiguramos nuestro nombre de host
 sudo nano /etc/mail/access # Habilitamos el acceso al servicio
 ```
 
-![[C2.png]]
+![[Universidad/Semestre 10/AdminServInt/Ejercicios/imgs_ej1/C2.png]]
 
 
 ```bash

@@ -18,16 +18,16 @@ C1:
 
 ![[Pasted image 20250403074959.png]]
 
-![[Pasted image 20250403080713.png]]
+![[C1.1.png]]
 
-![[Pasted image 20250403081558.png]]
+![[C1.2.png]]
 
-![[Pasted image 20250403081859.png]]
+![[C1.3.png]]
 
 
 
 HAProxy
 
 
-![[Pasted image 20250407171701.png]]
+![[Universidad/Semestre 10/AdminServInt/Ejercicios/imgs_ej4/C2.png]]
 
