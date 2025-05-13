@@ -103,7 +103,28 @@ Debe recaer en un grupo de personas. Este grupo de personas debe estar conformad
 1. Persona con autoridad
 2. Representante juridico
 3. Editor/Redactor
-4. Psicologos
+4. Psicólogos
 5. Administradores de sistemas
-6. Usuario tipico
+6. Usuario típico
 
+___
+## Metodología de Creación de Políticas
+
+1. Planteamiento de objetivos
+2. Preparación
+	- Decidir con el equipo cada cuando se harán las reuniones, su duración, que se harán en estas reuniones. Diagramas de Gantt. 
+3. Redacción
+	- Propuestas. Se requiere al editor. 
+4. Edición
+5. Aprobación
+	- Se revisa que estén todos los apartados necesarios. Se coloca sello y firma. Se coloca referencia de cuando fue aprobado. 
+	- "Aprobado actualizacionpor el consejo técnico ...", "Aprobado por..."
+6. Difusión
+	- Como se harán conocidos las políticas. En linea, en bibliotecas se puede comprar la legislación universitaria en físico, posters, libros, folletos, flyers, etc
+7. Revision
+	- Después de cierto tiempo, verificar que las políticas son relevantes aun, o necesitan algún cambio/actualización
+8. Aplicación
+9. Actualización
+	- Se hace un analisis de como se realizara la actualizacion. 
+
+___

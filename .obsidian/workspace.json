@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Seguridad/Tema 4/Políticas de Seguridad Informática de la Organización.md",
+                "file": "Semestre 10/Criptografia/Modos de Operacion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Políticas de Seguridad Informática de la Organización"
+              "title": "Modos de Operacion"
             }
           },
           {
@@ -211,8 +211,18 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
+    "Semestre 10/Criptografia/AES.md",
+    "Semestre 10/Criptografia/Modos de Operacion.md",
+    "Servicio.md",
+    "Semestre 10/Criptografia/Primitivas.md",
+    "Semestre 10/Criptografia/Intro.md",
+    "Semestre 10/Criptografia/Intercambio de llaves.md",
+    "Semestre 10/Criptografia/Funciones principales.md",
+    "Semestre 10/Criptografia/DES.md",
+    "Semestre 10/Criptografia/Cifrado Cesar.md",
     "Semestre 10/Seguridad/Tema 4/Políticas de Seguridad Informática de la Organización.md",
+    "Semestre 10/Seguridad/Tema 4/Plan de Contingencia.md",
+    "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
     "Semestre 10/Seguridad/Tema 4",
     "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
     "Semestre 10/AdminServInt/Ejercicios/Ejercicio 5.md",
@@ -239,19 +249,9 @@
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081859.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074947.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4",
-    "Semestre 10/Criptografia/AES.md",
     "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
     "Semestre 10/AnalisisTextos/6. Creacion de Proyecto.md",
-    "Semestre 10/Criptografia/Primitivas.md",
-    "Semestre 10/Criptografia/Intercambio de llaves.md",
     "Semestre 10/AnalisisTextos/5. Frequent Term Based Clustering.md",
-    "Semestre 10/AdminServInt/Intro.md",
-    "Semestre 10/AnalisisTextos/3. Relaciones Sintacticas.md",
-    "Semestre 10/AnalisisTextos/4. Reglas de Asosiacion.md",
-    "Semestre 10/Criptografia/DES.md",
-    "Semestre 10/Seguridad/Tema 1/1. Fundamentos Teóricos.md",
-    "Semestre 10/Seguridad/Tema 2/1. Amenazas y Vulnerabilidades.md",
-    "Semestre 10/Seguridad/Tema 1/4. Metodología de Perfiles de Protección.md",
     "Semestre 10/Cuantica/Untitled",
     "index.html",
     "Semestre 10/AdminServInt/imgs",
