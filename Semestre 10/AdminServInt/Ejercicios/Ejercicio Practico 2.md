@@ -56,14 +56,14 @@ sudo nano /etc/dovecot/dovecot.conf # COnfiguramos protocolos de dovecot
 ```
 
 
-![[C3.png]]
+![[Semestre 10/AdminServInt/Ejercicios/imgs_ej1/C3.png]]
 
 ```bash
 sudo cp /etc/dovecot/dovecot.conf . #Hacemos copia de configuracion
 sudo chown gael:gael dovecot.conf # cambiamos permisos del archivo copiado
 ```
 
-![[C4.png]]
+![[Semestre 10/AdminServInt/Ejercicios/imgs_ej1/C4.png]]
 
 Hacemos copia del archivo y cambiamos sus permisos
 

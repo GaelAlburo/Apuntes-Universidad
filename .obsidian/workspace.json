@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semestre 10/Criptografia/Modos de Operacion.md",
+                "file": "Semestre 10/AdminServInt/Ejercicios/Ejercicio 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modos de Operacion"
+              "title": "Ejercicio 6"
             }
           },
           {
@@ -211,8 +211,21 @@
   },
   "active": "2d181b6928f64c83",
   "lastOpenFiles": [
-    "Semestre 10/Criptografia/AES.md",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej6/C4.png",
+    "Semestre 10/AdminServInt/Ejercicios/Ejercicio 6.md",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej6/C3.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej6/C2.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506082356.png",
+    "Pasted image 20250505213046.png",
+    "Pasted image 20250503091429.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej6/C1.png",
+    "Semestre 10/AdminServInt/Proyecto/Pasted image 20250501190352.png",
+    "Semestre 10/AdminServInt/Proyecto/Pasted image 20250501190020.png",
+    "Semestre 10/AdminServInt/Proyecto/Pasted image 20250501185600.png",
+    "Semestre 10/AdminServInt/Ejercicios/imgs_ej6",
+    "Semestre 10/AdminServInt/Ejercicios/Ejercicio 5.md",
     "Semestre 10/Criptografia/Modos de Operacion.md",
+    "Semestre 10/Criptografia/AES.md",
     "Servicio.md",
     "Semestre 10/Criptografia/Primitivas.md",
     "Semestre 10/Criptografia/Intro.md",
@@ -225,37 +238,23 @@
     "Semestre 10/Seguridad/Tema 2/3. Tipos de Ataques.md",
     "Semestre 10/Seguridad/Tema 4",
     "Semestre 10/AdminServInt/5. Servidor de Archivos.md",
-    "Semestre 10/AdminServInt/Ejercicios/Ejercicio 5.md",
-    "Pasted image 20250506082356.png",
     "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 2.md",
     "Semestre 10/AdminServInt/Ejercicios/Ejercicio Practico 4.md",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506074709.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506075916.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej5/Pasted image 20250506080203.png",
-    "Pasted image 20250505213046.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej5",
     "Semestre 10/AdminServInt/Proyecto/Bitacora.md",
     "Semestre 10/AnalisisTextos/7. Topic Mining.md",
     "Semestre 10/AdminServInt/Untitled",
     "Semestre 10/AnalisisTextos/PROYECTO.md",
     "Semestre 10/AdminServInt/Proyecto",
-    "Pasted image 20250503091429.png",
     "Semestre 10/Cuantica/Algoritmos Cuánticos/12. Algoritmo Bernstein-Vazirani.md",
     "Semestre 10/Cuantica/Algoritmos Cuánticos/13. Algoritmo de Simon.md",
     "Semestre 10/Cuantica/Algoritmos Cuánticos/14. Algoritmo de Grover.md",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250407171701.png",
     "Semestre 10/AdminServInt/4. Servidores de aplicaciones y middleware.md",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081558.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403081859.png",
-    "Semestre 10/AdminServInt/Ejercicios/imgs_ej4/Pasted image 20250403074947.png",
     "Semestre 10/AdminServInt/Ejercicios/imgs_ej4",
     "Semestre 10/Seguridad/Tema 2/2. Identificacion de ataques y tecnicas de infusion.md",
-    "Semestre 10/AnalisisTextos/6. Creacion de Proyecto.md",
-    "Semestre 10/AnalisisTextos/5. Frequent Term Based Clustering.md",
     "Semestre 10/Cuantica/Untitled",
     "index.html",
     "Semestre 10/AdminServInt/imgs",
-    "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2",
-    "Semestre 10/Seguridad/Tema 2"
+    "Semestre 10/AdminServInt/Ejercicios/Imgs_ej2"
   ]
 }
