@@ -1,5 +1,5 @@
 C1:
-![[C1.png]]
+![[Semestre 10/AdminServInt/Ejercicios/imgs_ej6/C1.png]]
 
 ___
 C2:
